@@ -1,22 +1,28 @@
 const express = require("express");
 const path = require('path')
 const ejsMate = require("ejs-mate")
+const mongoose = require("mongoose");
+const Heritage = require("./model/heritageSite")
 const app = express();
 const port = 8000;
 
-// mongoose.connect(dburl)
-//     .then(() => {
-//         console.log('mongo Connection is successful');
-//     })
-//     .catch((err) => {
-//         console.error('Error connecting to MongoDB:', err);
-//     });
+
+mongoose.connect("mongodb://127.0.0.1:27017/SIH")
+    .then(() => {
+        console.log('mongo Connection is successful');
+    })
+    .catch((err) => {
+        console.error('Error connecting to MongoDB:', err);
+    });
 
 app.set('view engine', 'ejs')
 app.engine('ejs', ejsMate)
 app.use(express.static(path.join(__dirname, 'public')))
+
 // Home page
-app.get("/",(req,res)=>{
+app.get("/",async(req,res)=>{
+    // const heritageSite = await Heritage.findOne({name:"Agra Fort"})
+    // console.log(heritageSite)
     res.render("./home.ejs")
 });
 
