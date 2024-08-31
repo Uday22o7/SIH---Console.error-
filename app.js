@@ -2,7 +2,7 @@ const express = require("express");
 const path = require('path')
 const ejsMate = require("ejs-mate")
 const mongoose = require("mongoose");
-const Heritage = require("./model/heritageSite")
+const topIndia = require("./model/heritageSite")
 const app = express();
 const port = 8000;
 
@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 // Home page
 app.get("/",async(req,res)=>{
-    // const heritageSite = await Heritage.findOne({name:"Agra Fort"})
+    // const heritageSite = await topIndia.find({})
     // console.log(heritageSite)
     res.render("./home.ejs")
 });
