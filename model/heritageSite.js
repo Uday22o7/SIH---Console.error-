@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const heritageschema = new mongoose.Schema({
+const top10heritageschema = new mongoose.Schema({
     name: String,
     location: {
         city: String,
@@ -29,18 +29,19 @@ const heritageschema = new mongoose.Schema({
         indianCitizens: Number,
         foreignTourists: Number,
         saarcBimstecCitizens: Number,
-        children:String, 
+        childrenBelow15:String, 
     },
     howToReach: {
         nearestAirport: {
             name: String,
             distanceKm: Number
         },
-        distanceFromTajMahal: Number
-    }
+        distanceFrom: Number
+    },
+    iframe:String
 }); 
 
 
-const Heritage = new mongoose.model("Heritage",heritageschema);
+const topIndia = new mongoose.model("topIndia",top10heritageschema);
 
-module.exports = Heritage;
+module.exports = topIndia;

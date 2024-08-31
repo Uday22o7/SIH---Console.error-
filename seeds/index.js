@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Heritage = require("../model/heritageSite")
+const topIndia = require("../model/heritageSite")
 
 mongoose.connect("mongodb://127.0.0.1:27017/SIH")
     .then(() => {
@@ -10,7 +10,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/SIH")
     });
 
 const seedDB = async () => {
-    const heritageSite = new Heritage({
+    const heritageSite = new topIndia({
         name: 'Agra Fort',
         location: {
             city: 'Agra',
