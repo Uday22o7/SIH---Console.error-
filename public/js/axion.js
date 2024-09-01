@@ -1,4 +1,4 @@
-const select = document.querySelector("#site-select");
+const select = document.querySelector("#state");
 
 select.addEventListener("change", function () {
     const selectedValue = this.value;
