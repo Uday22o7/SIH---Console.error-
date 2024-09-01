@@ -38,7 +38,10 @@ const allHeritageSchema = new mongoose.Schema({
         },
         distanceFrom: Number
     },
-    iframe:String
+    iframe:{
+        map:String,
+        streetView:String
+    }
 }); 
 
 
