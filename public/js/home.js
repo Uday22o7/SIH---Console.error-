@@ -50,4 +50,8 @@ thumbnails.forEach((thumbnail, index) => {
         showSlider();
     })
     
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 98e336810be39e1fd26810677a9c59eecb629b2c

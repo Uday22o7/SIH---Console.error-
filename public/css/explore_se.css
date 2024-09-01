@@ -1,0 +1,218 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.pinmap {
+    width: 80%; /* Ensure the map takes full width of its container */
+    height: 100vh; /* Ensure the map takes the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Prevents overflow issues */
+    margin: 0 auto; /* Center the container itself */
+}
+
+.pinmap iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove any borders */
+    object-fit: cover; /* Ensure the map covers the entire container */
+    display: block; /* Remove default iframe inline behavior */
+    padding: 20px 0;
+}
+
+/* Explore Section */
+.explore {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.explore h2 {
+    margin-bottom: 20px;
+}
+
+.site-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.site-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 22%;
+    text-align: center;
+    transition: transform 0.2s;
+    display: block;
+    text-decoration: none; /* Ensure the link does not affect card design */
+}
+
+.explore-text {
+    text-align: center;  /* Center the text */
+    padding: 10px 0;  /* Add padding above and below the text */
+    font-size: 28px;  /* Adjust the font size as needed */
+    font-weight: bold;  /* Make the text bold */
+    color: #333;  /* Change the color if needed */
+    /* background-color: #777; */
+}
+
+.site-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.site-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-content.image-left, .about-content.image-right {
+        flex-direction: column;
+    }
+
+    .about-text, .about-image {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .site-card, .culture-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-card, .culture-card {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+    }
+
+    .about-text h3 {
+        font-size: 24px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .about-text p, .about-text ul {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .btn-primary {
+        padding: 6px 12px;
+    }
+
+    .about-text h3 {
+        font-size: 20px;
+    }
+
+    .about-text h4 {
+        font-size: 18px;
+    }
+
+    .about-text p, .about-text ul {
+        font-size: 12px;
+    }
+}

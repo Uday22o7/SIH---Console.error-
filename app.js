@@ -56,6 +56,10 @@ app.get("/explore", (req, res) => {
     res.render("./explore.ejs")
 });
 
+app.get("/explore/site", (req, res) => {
+    res.render("./explore2.ejs")
+});
+
 // Show page
 app.get("/:id", (req, res) => {
     res.render("./show.ejs")
