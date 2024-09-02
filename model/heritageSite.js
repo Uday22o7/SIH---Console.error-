@@ -11,7 +11,7 @@ const top10heritageschema = new mongoose.Schema({
             longitude: Number
         }
     },
-    imageUrl: String,
+    imageUrl: [String],
     overview: String,
     history: {
         earlyHistory: String,
@@ -38,6 +38,7 @@ const top10heritageschema = new mongoose.Schema({
         },
         distanceFrom: Number
     },
+    category:String,
     iframe:{
         map:String,
         streetView:String

@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Heritage and Culture Page</title>
+    <style>
+        .hero {
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<%= heritageSite[0].imageUrl[0] %>');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
     <link rel="stylesheet" href="/css/show.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <header class="navbar">
@@ -29,108 +42,123 @@
         </div>
     </section>
 
-<!-- About Section -->
-<section id="about" class="about">
-    <!-- First Half -->
-    <div class="about-content">
-        <div class="about-image">
-            <img src="/img/taj3.jpg" alt="Taj Mahal">
-        </div>
-        <div class="about-text">
-            <h3>Taj Mahal - The Icon of Eternal Love</h3>
-            <h4>Overview</h4>
-            <p>The Taj Mahal, located on the southern bank of the Yamuna River in Agra, Uttar Pradesh, is one of the most iconic and universally admired masterpieces of the world's heritage. This breathtaking white marble mausoleum was commissioned by the Mughal Emperor Shah Jahan in 1632, in memory of his favorite wife, Mumtaz Mahal, who died during childbirth. The Taj Mahal is not just a symbol of Shah Jahan's eternal love for Mumtaz Mahal but also an embodiment of the grandeur and artistic excellence of the Mughal era.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <!-- First Half -->
+        <div class="about-content">
+            <div class="about-image">
+                <img src="<%= heritageSite[0].imageUrl[1] %>" alt="Taj Mahal">
+            </div>
+            <div class="about-text">
+                <h3>
+                    <%= heritageSite[0].name %>
+                </h3>
+                <h4>Overview</h4>
+                <p>
+                    <%= heritageSite[0].overview %>
+                </p>
 
-            <h4>History and Significance</h4>
-            <ul>
-                <li><strong>Earlier History:</strong> The Taj Mahal was commissioned by Mughal Emperor Shah Jahan in 1632 as a mausoleum for his beloved wife, Mumtaz Mahal. The construction took approximately 21 years, concluding in 1653. This monument was built on the southern bank of the Yamuna River in Agra and reflects the profound love Shah Jahan had for Mumtaz Mahal.</li>
-                <li><strong>Architectural Significance:</strong> The Taj Mahal is celebrated for its breathtaking beauty and intricate design. The central dome is 73 meters high and is surrounded by four minarets. The mausoleum is constructed of white marble inlaid with precious stones, featuring elaborate floral patterns and calligraphy. The layout includes a vast garden divided into four parts by waterways, which exemplifies Mughal Garden design.</li>
-                <li><strong>UNESCO Recognition:</strong> The Taj Mahal was inscribed as a UNESCO World Heritage Site in 1983. It is recognized for its outstanding universal value as a masterpiece of Mughal architecture and a symbol of eternal love. Its inclusion highlights its historical importance and architectural excellence.</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Second Half -->
-    <div class="about-content">
-        <div class="about-text">
-            <h4>Visiting Hours</h4>
-            <ul>
-                <li><strong>Open:</strong> Monday to Sunday (except Fridays)</li>
-                <li><strong>Timings:</strong> Sunrise to Sunset (6:00 AM - 6:30 PM)</li>
-                <li><strong>Night Viewing:</strong> 8:30 PM - 12:30 AM (on full moon nights and two nights before and after the full moon, except Fridays and during Ramadan)</li>
-            </ul>
-
-            <h4>Ticket Information</h4>
-            <ul>
-                <li><strong>Entry Fee:</strong></li>
+                <h4>History and Significance</h4>
                 <ul>
-                    <li>Indian Citizens: ₹50</li>
-                    <li>Foreign Tourists: ₹1100</li>
-                    <li>SAARC/BIMSTEC Citizens: ₹540</li>
-                    <li>Children Below 15 Years: Free</li>
+                    <li><strong>Earlier History:</strong>
+                        <%= heritageSite[0].history.earlyHistory %>
+                    </li>
+                    <li><strong>Architectural Significance:</strong>
+                        <%= heritageSite[0].history.architecturalSignificance %>
+                    </li>
+                    <li><strong>UNESCO Recognition:</strong>
+                        <%= heritageSite[0].history.unescoRecognition %>
+                    </li>
                 </ul>
-                <li><strong>Night Viewing Fee:</strong></li>
-                <ul>
-                    <li>Indian Citizens: ₹510</li>
-                    <li>Foreign Tourists: ₹750</li>
-                    <li>Children (3-15 years): ₹500</li>
-                </ul>
-            </ul>
+            </div>
+        </div>
 
-            <h4>How to Reach</h4>
-            <p>The Taj Mahal is located in Agra, approximately 200 km from Delhi. It is easily accessible by road, train, and air. The nearest airport is Agra Airport (Kheria Airport), about 13 km away from the Taj Mahal.</p>
+        <!-- Second Half -->
+        <div class="about-content">
+            <div class="about-text">
+                <h4>Visiting Hours</h4>
+                <ul>
+                    <li><strong>Open:</strong>
+                        <%= heritageSite[0].visitingHours.openDays[0] %>
+                    </li>
+                    <li><strong>Timings:</strong> from <%= heritageSite[0].visitingHours.timings.from %>.00 to <%=
+                                heritageSite[0].visitingHours.timings.to %>.00 </li>
+                </ul>
+
+                <h4>Ticket Information</h4>
+                <ul>
+                    <li><strong>Entry Fee:</strong></li>
+                    <ul>
+                        <li>Indian Citizens: ₹<%= heritageSite[0].ticketInformation.indianCitizens %>
+                        </li>
+                        <li>Foreign Tourists: ₹<%= heritageSite[0].ticketInformation.foreignTourists %>
+                        </li>
+                        <li>SAARC/BIMSTEC Citizens: ₹<%= heritageSite[0].ticketInformation.saarcBimstecCitizens %>
+                        </li>
+                        <li>Children Below 15 Years: <%= heritageSite[0].ticketInformation.childrenBelow15 %>
+                        </li>
+                    </ul>
+                </ul>
+
+                <h4>How to Reach</h4>
+                <p>The <%= heritageSite[0].name %> is located in <%= heritageSite[0].location.city %>, approximately <%=
+                                heritageSite[0].howToReach.nearestAirport.distanceKm %> km from <%=
+                                    heritageSite[0].howToReach.nearestAirport.name %> .It is easily accessible by road,
+                                    train and air.</p>
+            </div>
+            <div class="about-image">
+                <img src="<%= heritageSite[0].imageUrl[2] %>" alt="Taj Mahal">
+            </div>
         </div>
-        <div class="about-image">
-            <img src="/img/taj2.jpg" alt="Taj Mahal">
+    </section>
+    <section id="map">
+        <div class="mapview">
+            <div class="pinmap">
+                <h2 class="map-title">Map</h2>
+                <iframe
+                    src="<%=heritageSite[0].iframe.map%>"
+                    width="100%" height="100%" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="view">
+                <h2 class="view-title">Street View</h2>
+                <iframe
+                    src="<%=heritageSite[0].iframe.streetView%>"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-    </div>
-</section>
-<section id="map">
-    <div class="mapview">
-        <div class="pinmap">
-            <h2 class="map-title">Map</h2>
-            <iframe
-                src="https://www.google.com/maps?q=Taj+Mahal+Dharmapuri+Forest+Colony+Tajganj+Agra+Uttar+Pradesh+India&z=15&output=embed"
-                width="100%"
-                height="100%"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>                                                                      
-        </div>   
-        <div class="view">
-            <h2 class="view-title">Street View</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1725176855130!6m8!1m7!1s4GVgfyiXaZYAAAGun7pojw!2m2!1d27.17529056221529!2d78.04078770980118!3f96.33451417239706!4f3.0232874806116286!5f0.7820865974627469" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
-    </div>   
-</section>
+    </section>
 
     <!-- Explore Section -->
     <section id="heritage-sites">
-        <h2  class="explore-text">Explore Heritage Sites</h2>
+        <h2 class="explore-text">Explore Heritage Sites</h2>
         <div class="site-container">
-            <a href="show2.html" class="site-card">
+            <a href="/explore/site/66d61baad574c98a7c4ac11f" class="site-card">
                 <img src="/img/taj1.jpg" alt="Taj Mahal">
                 <div class="card-content">
                     <h3>Taj Mahal</h3>
                     <p>An iconic symbol of love and one of the Seven Wonders of the World.</p>
                 </div>
             </a>
-    
-            <a href="show2.html" class="site-card">
+
+            <a href="/explore/site/66d61baad574c98a7c4ac121" class="site-card">
                 <img src="/img/qutub.jpg" alt="Qutub Minar">
                 <div class="card-content">
                     <h3>Qutub Minar</h3>
                     <p>The tallest brick minaret in the world, showcasing Indo-Islamic architecture.</p>
                 </div>
             </a>
-    
-            <a href="show2.html" class="site-card">
+
+            <a href="/explore/site/66d61baad574c98a7c4ac123" class="site-card">
                 <img src="/img/sun.jpg" alt="Sun Temple">
                 <div class="card-content">
                     <h3>Sun Temple, Konark</h3>
                     <p>A 13th-century temple dedicated to the Sun God, a UNESCO World Heritage Site.</p>
                 </div>
             </a>
-    
-            <a href="show2.html" class="site-card">
+
+            <a href="/explore/site/66d61baad574c98a7c4ac126" class="site-card">
                 <img src="/img/humpi.jpg" alt="Hampi">
                 <div class="card-content">
                     <h3>Hampi</h3>
@@ -139,9 +167,9 @@
             </a>
         </div>
     </section>
-    
+
     <section id="cultures">
-        <h2  class="explore-text">Explore Cultures</h2>
+        <h2 class="explore-text">Explore Cultures</h2>
         <div class="culture-container">
             <a href="show2.html" class="culture-card">
                 <img src="/img/bharat.jpg" alt="Bharatanatyam">
@@ -150,28 +178,31 @@
                     <p>A classical dance form originating from Tamil Nadu, known for its grace and precision.</p>
                 </div>
             </a>
-    
+
             <a href="show2.html" class="culture-card">
                 <img src="/img/rabgoli.jpg" alt="Rangoli">
                 <div class="card-content">
                     <h3>Rangoli</h3>
-                    <p>A vibrant art form of creating patterns on the floor using colored powders, popular during festivals.</p>
+                    <p>A vibrant art form of creating patterns on the floor using colored powders, popular during
+                        festivals.</p>
                 </div>
             </a>
-    
+
             <a href="show2.html" class="culture-card">
                 <img src="/img/katha.jpg" alt="Kathakali">
                 <div class="card-content">
                     <h3>Kathakali</h3>
-                    <p>A traditional dance-drama from Kerala, characterized by elaborate costumes and expressive movements.</p>
+                    <p>A traditional dance-drama from Kerala, characterized by elaborate costumes and expressive
+                        movements.</p>
                 </div>
             </a>
-    
+
             <a href="show2.html" class="culture-card">
                 <img src="/img/Bihu-Dance-assam.jpg" alt="Bihu Dance">
                 <div class="card-content">
                     <h3>Bihu Dance</h3>
-                    <p>A lively folk dance from Assam, performed during the Bihu festival celebrating the Assamese New Year.</p>
+                    <p>A lively folk dance from Assam, performed during the Bihu festival celebrating the Assamese New
+                        Year.</p>
                 </div>
             </a>
         </div>
@@ -184,4 +215,5 @@
 
     <script src="/js/show.js"></script>
 </body>
+
 </html>

@@ -32,6 +32,7 @@ app.get("/", async (req, res) => {
 
 app.post("/", async (req, res) => {
     const { state } = req.body;
+    console.log(state)
 
     try {
         if (state === "india") {
@@ -56,13 +57,24 @@ app.get("/explore", (req, res) => {
     res.render("./explore.ejs")
 });
 
-app.get("/explore/site", (req, res) => {
-    res.render("./explore2.ejs")
+app.get("/explore/site", async (req, res) => {
+    const { title } = req.query;
+    const heritageSite = await topIndia.find({}).limit(8);
+    res.render("./explore2.ejs", { heritageSite });
 });
 
 // Show page
-app.get("/:id", (req, res) => {
-    res.render("./show.ejs")
+app.get("/explore/site/:id", async (req, res) => {
+    const { id } = req.params
+    console.log(id);
+    const heritageSite = await topIndia.find({ _id: id });
+    console.log(heritageSite)
+    if (!heritageSite.length) {
+        const heritageSite = await allSites.find({ _id: id });
+        console.log(heritageSite)
+        return res.render("./show.ejs", { heritageSite })
+    }
+    res.render("./show.ejs", { heritageSite })
 });
 
 app.listen(port, (req, res) => {

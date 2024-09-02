@@ -14,11 +14,13 @@ select.addEventListener("change", function () {
             heritageSites.forEach(site => {
                 const card = `
                     <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">${site.name}</h5>
-                            <p class="card-text">${site.overview}</p>
-                        </div>
-                    </div>
+                <img src="./img/taj1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> ${site.name} </h5>
+                    <p class="card-text"> ${site.overview} </p>
+                    <a href="/explore/site/${site._id}" class="btn btn-primary"> go to ${site.name} </a>
+                </div>
+            </div>
                 `;
                 cardContainer.innerHTML += card;
             });

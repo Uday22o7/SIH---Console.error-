@@ -11,7 +11,7 @@ const allHeritageSchema = new mongoose.Schema({
             longitude: Number
         }
     },
-    imageUrl: String,
+    imageUrl: [String],
     overview: String,
     history: {
         earlyHistory: String,
@@ -31,6 +31,7 @@ const allHeritageSchema = new mongoose.Schema({
         saarcBimstecCitizens: Number,
         childrenBelow15:String, 
     },
+    category:String,
     howToReach: {
         nearestAirport: {
             name: String,

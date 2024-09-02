@@ -1,37 +1,37 @@
-let items=document.querySelectorAll('.slider .list .item');
-let next=document.getElementById('next');
-let prev=document.getElementById('prev');
-let thumbnail=document.querySelectorAll('.thumbnail .item');
+let items = document.querySelectorAll('.slider .list .item');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let thumbnail = document.querySelectorAll('.thumbnail .item');
 
 //config param
-let countItem= items.length;
+let countItem = items.length;
 let itemActive = 0;
 //event next click
-next.onclick=function(){
-    itemActive=itemActive+1;
-    if (itemActive>=countItem){
-        itemActive=0;
+next.onclick = function () {
+    itemActive = itemActive + 1;
+    if (itemActive >= countItem) {
+        itemActive = 0;
     }
     showSlider();
 }
 //event prev click
-prev.onclick=function(){
-    itemActive=itemActive-1;
-    if (itemActive<0){
-        itemActive=countItem-1;
+prev.onclick = function () {
+    itemActive = itemActive - 1;
+    if (itemActive < 0) {
+        itemActive = countItem - 1;
 
     }
     showSlider();
 }
 //auto run slider
-let refreshInterval=setInterval(() => {
+let refreshInterval = setInterval(() => {
     next.click();
-},5000)
+}, 5000)
 
-function showSlider(){
+function showSlider() {
     //remove item active old
-    let itemActiveOld=document.querySelector('.slider .list .item.active');
-    let thumbnailActiveOld=document.querySelector('.thumbnail .item.active');
+    let itemActiveOld = document.querySelector('.slider .list .item.active');
+    let thumbnailActiveOld = document.querySelector('.thumbnail .item.active');
     itemActiveOld.classList.remove('active');
     thumbnailActiveOld.classList.remove('active');
     //active new item
@@ -39,19 +39,14 @@ function showSlider(){
     thumbnail[itemActive].classList.add('active');
     //clear auto time run slider
     clearInterval(refreshInterval);
-    refreshInterval=setInterval(() => {
+    refreshInterval = setInterval(() => {
         next.click();
-    },5000)
+    }, 5000)
 }
 // click thumbnail
 thumbnails.forEach((thumbnail, index) => {
-    thumbnail.addEventListener('click',()=> {
-        itemActive= index;
+    thumbnail.addEventListener('click', () => {
+        itemActive = index;
         showSlider();
     })
-    
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 98e336810be39e1fd26810677a9c59eecb629b2c

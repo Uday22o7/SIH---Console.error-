@@ -1,16 +1,20 @@
 [
     {
-        "name": "Taj Mahal",
+        "name": "Taj Mahal ",
         "location": {
             "city": "Agra",
             "state": "Uttar Pradesh",
             "country": "India",
             "coordinates": {
-                "latitude": 27.1751,
-                "longitude": 78.0421
+                "latitude": 27.17529056221529,
+                "longitude": 78.04078770980118
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214407/taj1_kku24e.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214405/taj3_mwoma3.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214405/taj2_yi7tyc.jpg"
+        ],
         "overview": "The Taj Mahal, located on the southern bank of the Yamuna River in Agra, Uttar Pradesh, is one of the most iconic and universally admired masterpieces of the world's heritage. This breathtaking white marble mausoleum was commissioned by the Mughal Emperor Shah Jahan in 1632, in memory of his favorite wife, Mumtaz Mahal, who died during childbirth. The Taj Mahal is not just a symbol of Shah Jahan's eternal love for Mumtaz Mahal but also an embodiment of the grandeur and artistic excellence of the Mughal era.",
         "history": {
             "earlyHistory": "The Taj Mahal was commissioned by Mughal Emperor Shah Jahan in 1632 as a mausoleum for his beloved wife, Mumtaz Mahal. The construction took approximately 21 years, concluding in 1653. This monument was built on the southern bank of the Yamuna River in Agra and reflects the profound love Shah Jahan had for Mumtaz Mahal.",
@@ -18,10 +22,12 @@
             "unescoRecognition": "The Taj Mahal was inscribed as a UNESCO World Heritage Site in 1983. It is recognized for its outstanding universal value as a masterpiece of Mughal architecture and a symbol of eternal love. Its inclusion highlights its historical importance and architectural excellence."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
-                "from": 6.00,
-                "to": 18.30
+                "from": 6,
+                "to": 18
             }
         },
         "ticketInformation": {
@@ -32,12 +38,16 @@
         },
         "howToReach": {
             "nearestAirport": {
-                "name": "Agra Airport (Kheria Airport)",
+                "name": "Agra Airport",
                 "distanceKm": 13
             },
             "distanceFrom": 200
         },
-        "iframe": "https://www.google.com/maps?q=Taj+Mahal+Dharmapuri+Forest+Colony+Tajganj+Agra+Uttar+Pradesh+India&z=15&output=embed"
+        "category": "",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Taj+Mahal+Dharmapuri+Forest+Colony+Tajganj+Agra+Uttar+Pradesh+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725176855130!6m8!1m7!1s4GVgfyiXaZYAAAGun7pojw!2m2!1d27.17529056221529!2d78.04078770980118!3f96.33451417239706!4f3.0232874806116286!5f0.7820865974627469"
+        }
     },
     {
         "name": "Agra Fort",
@@ -46,11 +56,15 @@
             "state": "Uttar Pradesh",
             "country": "India",
             "coordinates": {
-                "latitude": 27.1795,
-                "longitude": 78.0211
+                "latitude": 27.179202,
+                "longitude": 78.0238197
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214429/agra1_bxdlpj.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214412/red2_endk5l.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214408/agra2_ffg9zq.jpg"
+        ],
         "overview": "Agra Fort, a UNESCO World Heritage Site, is a majestic red sandstone fort located on the banks of the Yamuna River in Agra, Uttar Pradesh. Built by Emperor Akbar in 1565, this fort served as the main residence of the Mughal emperors until 1638. The fort is a walled city, housing numerous palaces, halls, and mosques, and offers a fascinating glimpse into the Mughal era's grandeur.",
         "history": {
             "earlyHistory": "Originally built by the Tomar dynasty in the 11th century, Agra Fort was significantly expanded and renovated by the Mughal Emperor Akbar in 1565. The fort served as the main residence of the Mughal emperors until the capital was shifted to Delhi.",
@@ -58,10 +72,12 @@
             "unescoRecognition": "Agra Fort was designated a UNESCO World Heritage Site in 1983. The recognition emphasizes its historical role as a center of Mughal power and its architectural significance, which provides insights into Mughal military and royal life."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
-                "from": 6.00,
-                "to": 18.00
+                "from": 6,
+                "to": 18
             }
         },
         "ticketInformation": {
@@ -77,7 +93,11 @@
             },
             "distanceFrom": 0
         },
-        "iframe": "https://www.google.com/maps?q=Agra+Fort+Rakabganj+Agra+Uttar+Pradesh+India&z=15&output=embed"
+        "category": "Fort",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Agra+Fort+Rakabganj+Agra+Uttar+Pradesh+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725284431870!6m8!1m7!1sCAoSLEFGMVFpcE1FQm5qX0Q4UHowUXYtRncwTV92ZFJzUGotVWdQSHhsWW5aMXdF!2m2!1d27.179202!2d78.02381969999999!3f343.8103!4f5.514470000000003!5f0.7820865974627469"
+        }
     },
     {
         "name": "Qutub Minar",
@@ -86,22 +106,28 @@
             "state": "Delhi",
             "country": "India",
             "coordinates": {
-                "latitude": 28.5244,
+                "latitude": 28.5245,
                 "longitude": 77.1855
             }
         },
-        "imageUrl": "",
-        "overview": "Qutub Minar is a towering minaret in Delhi, standing at a height of 73 meters, making it the tallest brick minaret in the world. It is a UNESCO World Heritage Site and one of Delhi's most popular historical monuments. The minaret is a fine example of Indo-Islamic Afghan architecture, with intricate carvings and verses from the Quran adorning its surface.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214428/qutub2_jbgay8.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214420/qutub3_wxi6my.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214417/qu_fextaq.jpg"
+        ],
+        "overview": "Qutub Minar is a towering minaret in Delhi, standing at a height of 73 meters, making it the tallest brick minaret in the world. It is a UNESCO World Heritage Site and one of Delhi's most popular historical monuments.",
         "history": {
-            "earlyHistory": "The Qutub Minar was commissioned by Qutb-ud-din Aibak, the founder of the Delhi Sultanate, in 1193. It was completed by his successor, Iltutmish, in 1368. The minaret was built to celebrate the victory of the Delhi Sultanate over the last Hindu kingdom of Delhi.",
-            "architecturalSignificance": "The Qutub Minar stands at 73 meters, making it the tallest brick minaret in the world. It is adorned with intricate carvings and inscriptions in Arabic, and the structure is made of red sandstone with marble and sandstone inlays. The minaret's design reflects early Indo-Islamic architecture, characterized by its fluted cylindrical shape and ornate detailing.",
-            "unescoRecognition": "The Qutub Minar was inscribed as a UNESCO World Heritage Site in 1993. It is recognized for its historical significance and architectural brilliance, symbolizing the advent of Islamic rule in India and the development of Indo-Islamic architecture."
+            "earlyHistory": "The Qutub Minar was commissioned by Qutb-ud-din Aibak in 1193 and completed by his successor, Iltutmish, in 1368.",
+            "architecturalSignificance": "The Qutub Minar is the tallest brick minaret in the world, made of red sandstone with intricate carvings and inscriptions.",
+            "unescoRecognition": "The Qutub Minar was inscribed as a UNESCO World Heritage Site in 1993 for its historical significance and architectural brilliance."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
-                "from": 6.00,
-                "to": 18.00
+                "from": 6,
+                "to": 18
             }
         },
         "ticketInformation": {
@@ -113,11 +139,15 @@
         "howToReach": {
             "nearestAirport": {
                 "name": "Indira Gandhi International Airport",
-                "distanceKm": 15
+                "distanceKm": 12
             },
-            "distanceFrom": 0
+            "distanceFrom": 10
         },
-        "iframe": "https://www.google.com/maps?q=Qutub+Minar+Mehrauli+Delhi+India&z=15&output=embed"
+        "category": "Monuments",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Qutub+Minar+Mehrauli+Delhi+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725284587100!6m8!1m7!1sCAoSLEFGMVFpcFBJdTJ6ZXFucnd3Z19mTS15YllreDcxM09GM3l6V2V2T1ZrOU5h!2m2!1d28.5244946!2d77.18551769999999!3f149.44005922409545!4f23.631746208151668!5f0.7820865974627469"
+        }
     },
     {
         "name": "Humayun's Tomb",
@@ -126,19 +156,25 @@
             "state": "Delhi",
             "country": "India",
             "coordinates": {
-                "latitude": 28.5933,
+                "latitude": 28.5944,
                 "longitude": 77.2507
             }
         },
-        "imageUrl": "",
-        "overview": "Humayun's Tomb is a stunning Mughal architectural marvel in Delhi, recognized as a UNESCO World Heritage Site. Built in 1570, it was the first garden-tomb on the Indian subcontinent and set a precedent for subsequent Mughal architecture, including the Taj Mahal. The tomb houses the remains of the second Mughal Emperor, Humayun.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214414/humayuns_tomb_gkyl9t.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214433/humayun_datlhn.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214413/humayun3_jt7u03.jpg"
+        ],
+        "overview": "Humayun's Tomb is a stunning Mughal architectural marvel in Delhi, recognized as a UNESCO World Heritage Site. Built in 1570, it was the first garden-tomb on the Indian subcontinent.",
         "history": {
-            "earlyHistory": "Humayun's Tomb was commissioned by Empress Bega Begum, the widow of Mughal Emperor Humayun, in 1569. It was designed by Persian architect Mirak Mirza Ghiyas and completed in 1572. The tomb is notable for being the first garden-tomb in India and an early example of Mughal architecture.",
-            "architecturalSignificance": "The tomb is constructed from red sandstone and white marble, and it is set within a charbagh (fourfold) garden layout. The design of the tomb, with its central dome and large gardens, influenced subsequent Mughal architecture, including the Taj Mahal. Its symmetrical layout and decorative details reflect the Persian influence on Mughal architecture.",
-            "unescoRecognition": "Humayun's Tomb was added to the UNESCO World Heritage list in 1993. It is acknowledged for its architectural innovation and its role as a precursor to the later Mughal mausoleums, demonstrating the evolution of Mughal architectural styles."
+            "earlyHistory": "Humayun's Tomb was commissioned by Empress Bega Begum in 1569 and completed in 1572.",
+            "architecturalSignificance": "The tomb is constructed from red sandstone and white marble, set within a charbagh garden layout. It influenced subsequent Mughal architecture, including the Taj Mahal.",
+            "unescoRecognition": "Humayun's Tomb was added to the UNESCO World Heritage list in 1993 for its architectural innovation and influence on later Mughal mausoleums."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 6,
                 "to": 18
@@ -153,11 +189,15 @@
         "howToReach": {
             "nearestAirport": {
                 "name": "Indira Gandhi International Airport",
-                "distanceKm": 21
+                "distanceKm": 25
             },
-            "distanceFrom": 6
+            "distanceFrom": 3
         },
-        "iframe": "https://www.google.com/maps?q=Humayun's+Tomb+Delhi+India&z=15&output=embed"
+        "category": "Mausoleum",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Humayun's+Tomb+Delhi+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725284710914!6m8!1m7!1sx1ApAXO25YSftbTvNzsBKg!2m2!1d28.59440032100516!2d77.25072638122083!3f184.03163377886617!4f-7.627233731130431!5f0.7820865974627469"
+        }
     },
     {
         "name": "Sun Temple",
@@ -170,15 +210,21 @@
                 "longitude": 86.0945
             }
         },
-        "imageUrl": "",
-        "overview": "The Sun Temple at Konark, also known as the Black Pagoda, is a 13th-century temple dedicated to the Sun God, Surya. It is one of the most renowned temples in India and a UNESCO World Heritage Site. The temple is a brilliant example of ancient Indian architecture, symbolizing the majestic chariot of the Sun God, with twelve pairs of wheels and seven horses.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214406/suntemple_iu0cid.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214403/sun2_ygfo7f.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214405/sun3_orruok.jpg"
+        ],
+        "overview": "The Sun Temple at Konark, also known as the Black Pagoda, is a 13th-century temple dedicated to the Sun God, Surya, renowned for its grand design symbolizing the chariot of the Sun God.",
         "history": {
-            "earlyHistory": "The Sun Temple at Konark was built in the 13th century by King Narasimhadeva I of the Eastern Ganga dynasty. It was constructed to honor the Sun God, Surya, and was part of a grand plan to establish Konark as a major religious and cultural center.",
-            "architecturalSignificance": "The temple is renowned for its grand design, which includes a massive stone chariot with 12 pairs of wheels and seven horses. The intricate carvings depict scenes from daily life, mythology, and celestial beings. The temple's architecture is a masterpiece of Kalinga style, reflecting the zenith of Odisha temple architecture.",
-            "unescoRecognition": "The Sun Temple was inscribed as a UNESCO World Heritage Site in 1984. The designation recognizes its outstanding architectural features and its role as a significant symbol of Indian cultural heritage and artistic achievement."
+            "earlyHistory": "The Sun Temple was built in the 13th century by King Narasimhadeva I of the Eastern Ganga dynasty.",
+            "architecturalSignificance": "The temple's grand design includes a massive stone chariot with 12 pairs of wheels and seven horses, showcasing intricate carvings.",
+            "unescoRecognition": "The Sun Temple was inscribed as a UNESCO World Heritage Site in 1984 for its outstanding architectural features."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 6,
                 "to": 20
@@ -195,9 +241,13 @@
                 "name": "Biju Patnaik International Airport",
                 "distanceKm": 65
             },
-            "distanceFrom": 3
+            "distanceFrom": 2
         },
-        "iframe": "https://www.google.com/maps?q=Sun+Temple+Konark+Odisha+India&z=15&output=embed"
+        "category": "Temples",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Sun+Temple+Konark+Odisha+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725284855719!6m8!1m7!1sCAoSLEFGMVFpcE5vVWx6MENTTjNpSE15V1NBWTdCYVFFa3Bsc2d3RmZ6NGtWMGVZ!2m2!1d19.8875953!2d86.0945364!3f254.31903269043386!4f14.91445487546929!5f0.7820865974627469"
+        }
     },
     {
         "name": "Khajuraho Group of Monuments",
@@ -207,10 +257,14 @@
             "country": "India",
             "coordinates": {
                 "latitude": 24.8318,
-                "longitude": 79.9191
+                "longitude": 79.9192
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214415/khajuraho_bn8apf.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214415/khaj3_pxd6xu.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214415/khaj2_lntpel.jpg"
+        ],
         "overview": "The Khajuraho Group of Monuments is a collection of Hindu and Jain temples in Madhya Pradesh, famous for their intricate carvings and erotic sculptures. Built between 950 and 1050 AD by the Chandela dynasty, these temples are a UNESCO World Heritage Site and represent the pinnacle of Indian temple architecture.",
         "history": {
             "earlyHistory": "The Khajuraho Group of Monuments was built between 950 and 1050 AD by the Chandela dynasty. The temples were dedicated to Hindu and Jain deities and reflect the cultural and religious life of the period.",
@@ -218,7 +272,9 @@
             "unescoRecognition": "The Khajuraho Group of Monuments was inscribed as a UNESCO World Heritage Site in 1986. It is recognized for its unique sculptural art and architectural innovation, representing a high point in Indian temple architecture and religious expression."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 6,
                 "to": 18
@@ -235,9 +291,13 @@
                 "name": "Khajuraho Airport",
                 "distanceKm": 5
             },
-            "distanceFrom": 0
+            "distanceFrom": 5
         },
-        "iframe": "https://www.google.com/maps?q=Khajuraho+Group+of+Monuments+Madhya+Pradesh+India&z=15&output=embed"
+        "category": "Temples",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Khajuraho+Group+of+Monuments+Madhya+Pradesh+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725285058371!6m8!1m7!1sCAoSLEFGMVFpcE5FTHFaUmZ0Tm1VVk9CS1h4dHRxZl9yU3NSTTNYWUhWSUFHdXN1!2m2!1d24.8531246!2d79.9196625!3f182.60442362208175!4f19.284960258993635!5f0.7820865974627469"
+        }
     },
     {
         "name": "Ajanta and Ellora Caves",
@@ -246,11 +306,15 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 20.5524,
-                "longitude": 75.7033
+                "latitude": 20.5237,
+                "longitude": 75.7047
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214407/ajanta_ellora_tdtlku.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214409/ellora1_da8lm5.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214410/ellora2_mols5a.jpg"
+        ],
         "overview": "The Ajanta and Ellora Caves are a group of rock-cut caves near Aurangabad in Maharashtra, known for their remarkable frescoes, sculptures, and ancient Indian art. Ajanta Caves, dating back to the 2nd century BCE, are predominantly Buddhist, while Ellora Caves, built between the 6th and 10th centuries, represent Hindu, Buddhist, and Jain traditions. Both are UNESCO World Heritage Sites.",
         "history": {
             "earlyHistory": "The Ajanta Caves were carved between the 2nd century BCE and the 6th century CE, while the Ellora Caves were created between the 5th and 10th centuries CE. These caves served as monastic retreats and religious centers for Buddhists, Hindus, and Jains.",
@@ -258,7 +322,9 @@
             "unescoRecognition": "The Ajanta Caves were inscribed as a UNESCO World Heritage Site in 1983, and the Ellora Caves followed in 1983. Both sites are celebrated for their exceptional art and architectural contributions, reflecting the rich cultural and religious diversity of India."
         },
         "visitingHours": {
-            "openDays": ["All days of the week (Ellora Caves closed on Tuesdays)"],
+            "openDays": [
+                "All days of the week (Ellora Caves closed on Tuesdays)"
+            ],
             "timings": {
                 "from": 9,
                 "to": 17
@@ -273,11 +339,15 @@
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
-                "distanceKm": 35
+                "distanceKm": 30
             },
-            "distanceFrom": 4
+            "distanceFrom": 30
         },
-        "iframe": "https://www.google.com/maps?q=Ajanta+Ellora+Caves+Maharashtra+India&z=15&output=embed"
+        "category": "Caves",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Ajanta+Ellora+Caves+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725285379685!6m8!1m7!1sCAoSLEFGMVFpcE1MYkk3MW9qa2tSSzRYbmZZRjJqMFkweFo0MEliaXBTcE9Od0pW!2m2!1d20.0237503!2d75.1791233!3f338.7268106999801!4f17.62202878460822!5f0.7820865974627469"
+        }
     },
     {
         "name": "Hampi",
@@ -286,11 +356,15 @@
             "state": "Karnataka",
             "country": "India",
             "coordinates": {
-                "latitude": 15.335,
-                "longitude": 76.4606
+                "latitude": 15.3352,
+                "longitude": 76.4600
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214411/hampi_pxmetc.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214415/humpi_l8yd7x.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725214411/hampi3_rljvu2.jpg"
+        ],
         "overview": "Hampi, the capital of the Vijayanagara Empire in the 14th century, is a UNESCO World Heritage Site known for its stunning ruins and historical significance. Located on the banks of the Tungabhadra River in Karnataka, Hampi is an open museum with over 500 monuments spread across 26 square kilometers.",
         "history": {
             "earlyHistory": "Hampi was established as the capital of the Vijayanagara Empire in the 14th century by Harihara and Bukka Raya I. It flourished as a major cultural and economic hub until its fall in 1565, following the Battle of Talikota.",
@@ -298,7 +372,9 @@
             "unescoRecognition": "Hampi was added to the UNESCO World Heritage list in 1986. It is recognized for its historical significance and the remarkable preservation of its ancient ruins, which provide insights into the urban planning and cultural achievements of the Vijayanagara Empire."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 6,
                 "to": 18
@@ -315,9 +391,13 @@
                 "name": "Hubli Airport",
                 "distanceKm": 143
             },
-            "distanceFrom": 2
+            "distanceFrom": 143
         },
-        "iframe": "https://www.google.com/maps?q=Hampi+Karnataka+India&z=15&output=embed"
+        "category": "Heritage Site",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Hampi+Karnataka+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725285675167!6m8!1m7!1sCAoSLEFGMVFpcE9mNFk5cnViaHl3X09HVnlSSDBMRDZLcERuVllTWF9keGJOanpl!2m2!1d15.3351865!2d76.4596919!3f109.18063446073441!4f20.15713815352376!5f0.7820865974627469"
+        }
     },
     {
         "name": "Fatehpur Sikri",
@@ -326,11 +406,15 @@
             "state": "Uttar Pradesh",
             "country": "India",
             "coordinates": {
-                "latitude": 27.0942,
-                "longitude": 77.6684
+                "latitude": 27.0935,
+                "longitude": 77.6614
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725307241/fatemain_gijio9.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725307260/fate1_ciz0s8.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725307247/fate2_vo0jso.jpg"
+        ],
         "overview": "Fatehpur Sikri is a UNESCO World Heritage Site and a historic city built by Mughal Emperor Akbar in the 16th century. Located near Agra, Uttar Pradesh, the city served as the capital of the Mughal Empire for about 14 years. Fatehpur Sikri is renowned for its stunning Mughal architecture and the fusion of Persian, Indian, and Islamic styles.",
         "history": {
             "earlyHistory": "Fatehpur Sikri was founded by Mughal Emperor Akbar in 1569 as the capital of his empire. The city was abandoned in 1585 due to water shortages and strategic shifts in the empire's administration.",
@@ -338,7 +422,9 @@
             "unescoRecognition": "Fatehpur Sikri was inscribed as a UNESCO World Heritage Site in 1986. The site is recognized for its architectural innovation, historical significance, and its role as an important political and cultural center during Akbar's reign."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 6,
                 "to": 18
@@ -355,9 +441,13 @@
                 "name": "Agra Airport",
                 "distanceKm": 40
             },
-            "distanceFrom": 0
+            "distanceFrom": 40
         },
-        "iframe": "https://www.google.com/maps?q=Fatehpur+Sikri+Uttar+Pradesh+India&z=15&output=embed"
+        "category": "Forts",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Fatehpur+Sikri+Uttar+Pradesh+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725285782409!6m8!1m7!1sCAoSLEFGMVFpcE9XSDQxYlJiUzJxVG9sRFJrQ1VKYk84Z3FBRHlRYkdRZndneTRn!2m2!1d27.094254!2d77.6629815!3f23.623397663468293!4f21.236851445531443!5f0.7820865974627469"
+        }
     },
     {
         "name": "Mahabalipuram",
@@ -366,11 +456,15 @@
             "state": "Tamil Nadu",
             "country": "India",
             "coordinates": {
-                "latitude": 12.6177,
-                "longitude": 80.1954
+                "latitude": 12.6170,
+                "longitude": 80.1926
             }
         },
-        "imageUrl": "",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725307602/mahamain_g9qtym.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725307595/maha1_vluamp.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725307718/maha2_ib5qoa.jpg"
+        ],
         "overview": "Mahabalipuram, also known as Mamallapuram, is a historic town on the Coromandel Coast of Tamil Nadu, famous for its rock-cut temples and ancient sculptures. Recognized as a UNESCO World Heritage Site, Mahabalipuram was a thriving port city during the Pallava dynasty in the 7th and 8th centuries. The site is renowned for its architectural and artistic achievements, including the Shore Temple and the Pancha Rathas.",
         "history": {
             "earlyHistory": "Mahabalipuram, also known as Mamallapuram, was a thriving port city under the Pallava dynasty during the 7th century. It was established by King Narasimhavarman I and became a major center for trade and religion.",
@@ -378,7 +472,9 @@
             "unescoRecognition": "Mahabalipuram was designated a UNESCO World Heritage Site in 1984. The recognition highlights the site's architectural achievements and its historical role as a significant cultural and religious center in early medieval South India."
         },
         "visitingHours": {
-            "openDays": ["All days of the week"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 6,
                 "to": 18
@@ -395,8 +491,12 @@
                 "name": "Chennai International Airport",
                 "distanceKm": 60
             },
-            "distanceFrom": 2
+            "distanceFrom": 60
         },
-        "iframe": "https://www.google.com/maps?q=Mahabalipuram+Tamil+Nadu+India&z=15&output=embed"
+        "category": "Temples",
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Mahabalipuram+Tamil+Nadu+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725285947975!6m8!1m7!1sCAoSLEFGMVFpcE1EWGlhWGE2X2FzQmN2dGItTzdiaUROX014VGxUS0hjbzFKS0Vx!2m2!1d12.6163897!2d80.1992719!3f49.88279669194132!4f18.430541452150877!5f0.7820865974627469"
+        }
     }
 ]
