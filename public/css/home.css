@@ -80,6 +80,18 @@ header ul li:hover ul.dropdown {
     display: block;
 }
 
+.state {
+    margin-top: 100px;
+}
+
+#state {
+    border-radius: 100px;
+}
+
+.content{
+    color: white;
+}
+
 /* Slider */
 .slider {
     height: 100vh;
@@ -234,6 +246,7 @@ header ul li:hover ul.dropdown {
 }
 
 .grp19{
+    margin-left: 20%;
     justify-content: center;
     align-items: center;
     padding: 10px;

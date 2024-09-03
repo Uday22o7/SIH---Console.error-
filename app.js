@@ -36,10 +36,10 @@ app.post("/", async (req, res) => {
 
     try {
         if (state === "india") {
-            const heritageSite = await topIndia.find({}).limit(4);
+            const heritageSite = await topIndia.find({}).limit(6);
             res.json(heritageSite);
         } else {
-            const heritageSite = await allSites.find({ 'location.state': state }).limit(4);
+            const heritageSite = await allSites.find({ 'location.state': state }).limit(6);
             res.json(heritageSite);
         }
     } catch (err) {

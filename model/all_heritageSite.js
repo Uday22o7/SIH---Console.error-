@@ -42,7 +42,8 @@ const allHeritageSchema = new mongoose.Schema({
     iframe:{
         map:String,
         streetView:String
-    }
+    },
+    mainmap:String
 }); 
 
 

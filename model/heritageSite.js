@@ -42,7 +42,8 @@ const top10heritageschema = new mongoose.Schema({
     iframe:{
         map:String,
         streetView:String
-    }
+    },
+    mainmap:String
 }); 
 
 
