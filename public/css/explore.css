@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: Poppins;
+    margin: 0;
+    /*background-color: #704444;*/
+    color: #eee;
+}
+svg{
+    width: 25px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+/*footer*/
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/*explore*/
+.explore{
+    background-color:#4B9DFF;
+}
+.statesearch {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.search{
+    width:330px;
+    color:black;
+  }
+.statesearch{
+    float: center;
+    padding: 30px;
+
+}
+.srch{
+    width: 400px;
+    height: 50px;
+    color:#000;
+    background: #eee;
+    border: 3px solid #000;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.btn{
+    height:50px;
+    width:100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #eee;
+    background-color: #000;
+    border: 2px solid #eee;
+    font-size: 20px;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: rgba(240, 183, 27, 0.877);
+    color: #000;
+}
+.map{
+   text-align: center;
+   
+}
+.popular{
+    background-color: #82caf3;
+    text-align: center;
+}
+.popular h1{
+font-size: 50px;
+color: #000;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+/* Explore Section */
+.explore {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.explore h2 {
+    margin-bottom: 20px;
+}
+
+.site-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.site-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 22%;
+    text-align: center;
+    transition: transform 0.2s;
+    display: block;
+    text-decoration: none;
+}
+
+.explore-text {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.site-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.site-card:hover, .culture-card:hover {
+    transform: translateY(-10px);
+}

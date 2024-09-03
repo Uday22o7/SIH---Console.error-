@@ -6,7 +6,14 @@
     font-family: Arial, sans-serif;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     line-height: 1.6;
     font-size: 16px;
 }
@@ -18,6 +25,7 @@ a {
 
 /* Navbar */
 .navbar {
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,65 +52,58 @@ a {
     font-weight: bold;
 }
 
+/* Pinmap */
 .pinmap {
-    width: 80%; /* Ensure the map takes full width of its container */
-    height: 100vh; /* Ensure the map takes the full height of the viewport */
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    overflow: hidden; /* Prevents overflow issues */
-    margin: 0 auto; /* Center the container itself */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .pinmap iframe {
     width: 100%;
     height: 100%;
-    border: 0; /* Remove any borders */
-    object-fit: cover; /* Ensure the map covers the entire container */
-    display: block; /* Remove default iframe inline behavior */
-    padding: 20px 0;
+    border: 0;
+    object-fit: cover;
+    display: block;
 }
 
 /* Explore Section */
 .explore {
     padding: 50px;
     background-color: #fff;
+    flex-grow: 1; /* Make explore section grow to fill the available space */
 }
 
 .explore h2 {
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
 }
 
 .site-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the start */
     padding: 20px;
 }
 
-.site-card{
+.site-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 22%;
+    flex: 0 1 23%; /* Ensures four cards fit in one row at full size */
     text-align: center;
     transition: transform 0.2s;
-    display: block;
-    text-decoration: none; /* Ensure the link does not affect card design */
+    text-decoration: none;
 }
 
-.explore-text {
-    text-align: center;  /* Center the text */
-    padding: 10px 0;  /* Add padding above and below the text */
-    font-size: 28px;  /* Adjust the font size as needed */
-    font-weight: bold;  /* Make the text bold */
-    color: #333;  /* Change the color if needed */
-    /* background-color: #777; */
-}
-
-.site-card img{
+.site-card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -114,12 +115,13 @@ a {
 
 .card-content h3 {
     margin: 10px 0;
-    font-size: 22px;
+    font-size: 20px;
     color: #333;
+    text-align: center;
 }
 
 .card-content p {
-    font-size: 16px;
+    font-size: 14px;
     color: #777;
     line-height: 1.4;
 }
@@ -130,6 +132,7 @@ a {
 
 /* Footer */
 .footer {
+    flex-shrink: 0;
     padding: 20px;
     text-align: center;
     background-color: #333;
@@ -137,82 +140,14 @@ a {
 }
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
-    .about-content {
-        flex-direction: column;
-    }
-
-    .about-content.image-left, .about-content.image-right {
-        flex-direction: column;
-    }
-
-    .about-text, .about-image {
-        width: 100%;
-    }
-
-    .about-text {
-        padding: 20px;
-    }
-}
-
 @media (max-width: 1024px) {
-    .site-card, .culture-card {
-        width: 45%;
+    .site-card {
+        flex: 0 1 48%; /* Two cards per row */
     }
 }
 
 @media (max-width: 768px) {
-    .site-card, .culture-card {
-        width: 100%;
-    }
-
-    .hero h1 {
-        font-size: 36px;
-    }
-
-    .hero p {
-        font-size: 20px;
-    }
-
-    .btn-primary {
-        padding: 8px 16px;
-    }
-
-    .about-text h3 {
-        font-size: 24px;
-    }
-
-    .about-text h4 {
-        font-size: 20px;
-    }
-
-    .about-text p, .about-text ul {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 24px;
-    }
-
-    .hero p {
-        font-size: 18px;
-    }
-
-    .btn-primary {
-        padding: 6px 12px;
-    }
-
-    .about-text h3 {
-        font-size: 20px;
-    }
-
-    .about-text h4 {
-        font-size: 18px;
-    }
-
-    .about-text p, .about-text ul {
-        font-size: 12px;
+    .site-card {
+        flex: 0 1 100%; /* Single card per row */
     }
 }
