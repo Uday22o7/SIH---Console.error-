@@ -16,8 +16,8 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#explore">Explore</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/explore">Explore</a></li>
+                <li><a href="/">Home</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
 
     <!-- Explore Section -->
     <section id="heritage-sites">
-        <h2 class="explore-text">UNESCO World Heritage Sites in India</h2>
+        <h2 class="explore-text"> Heritage Sites in India</h2>
         <div class="site-container">
             <% for (let sites of heritageSite) { %>
                 <a href="/explore/site/<%= sites._id %>" class="site-card">

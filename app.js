@@ -32,8 +32,6 @@ app.get("/", async (req, res) => {
 
 app.post("/", async (req, res) => {
     const { state } = req.body;
-    console.log(state)
-
     try {
         if (state === "india") {
             const heritageSite = await topIndia.find({}).limit(6);

@@ -3,83 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/explore.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="explore">
-      <!-- Navbar -->
     <header class="navbar">
-      <div class="logo"><img src="logo.svg" alt="Taj Mahal"></div>
+      <div class="logo"><img src="/img/logo.svg" alt="Taj Mahal"></div>
       <nav>
           <ul>
               <li><a href="#about">About</a></li>
-              <li><a href="#explore">Explore</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="/explore">Explore</a></li>
+              <li><a href="/">Home</a></li>
           </ul>
       </nav>
-  </header>
-     
-  </div>
-  <div class="statesearch">    
-      
-    <input class="srch" type="search" name="" placeholder="search for heritage culture and tradition"> <a href="#"><button class="btn">Search</button></a>    
-      </div>
-  <div class="map">
-    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283299!2d78.03956727406796!3d27.17514954876578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1725211582389!5m2!1sen!2sin" width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </p>
-  </div>
-
-
-<!-- <div class="popular">
-  <h1>Popular around #YOU</h1>
-</div> -->
+    </header>
+    
+    <div class="statesearch">
+      <input class="srch" type="search" placeholder="search for heritage culture and tradition">
+      <a href="#"><button class="btn">Search</button></a>
+    </div>
+    
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283299!2d78.03956727406796!3d27.17514954876578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1725211582389!5m2!1sen!2sin" width="1500" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <!-- Explore Section -->
     <section id="heritage-sites">
-      <h1  class="explore-text">Category</h1>
+      <h1 class="explore-text">Category</h1>
       <div class="site-container">
-          <a href="taj-mahal.html" class="site-card">
-              <img src="images/cat1.jpg" alt="Taj Mahal">
+          <div  class="site-card">
+              <img src="/img/cat1.jpg" alt="Taj Mahal">
               <div class="card-content">
                 <h3>UNESCO world heritage sites in India</h3>
-                <button>10 places<i class="bi bi-play-fill"></i></button>
+                <form action="/explore/site" method="get">
+                  <input type="hidden" name="title" value="unescoRecognition">
+                  <button>10 places<i class="bi bi-play-fill"></i></button>
+                </form>
               </div>
-          </a>
-  
-          <a href="qutub-minar.html" class="site-card">
-              <img src="images/cat2.jpg" alt="Qutub Minar">
+            </div>
+          <div  class="site-card">
+              <img src="/img/cat2.jpg" alt="Qutub Minar">
               <div class="card-content">
                   <h3>Historic forts and Palaces</h3>
-                  <button>6 places<i class="bi bi-play-fill"></i></button>
+                  <form action="/explore/site" method="get">
+                    <input type="hidden" name="title" value="Forts">
+                    <button>6 places<i class="bi bi-play-fill"></i></button>
+                  </form>
               </div>
-          </a>
-  
-          <a href="sun-temple.html" class="site-card">
-              <img src="images/cat3.jpg" alt="Sun Temple">
+            </div>
+          <div  class="site-card">
+              <img src="/img/ajanta_ellora.jpg" alt="Sun Temple">
+              <div class="card-content">
+                  <h3>Historic Caves</h3>   
+                  <form action="/explore/site" method="get">
+                    <input type="hidden" name="title" value="Caves">
+                    <button>3 places<i class="bi bi-play-fill"></i></button>
+                  </form>
+              </div>
+            </div>
+          <div  class="site-card">
+              <img src="/img/cat3.jpg" alt="Hampi">
               <div class="card-content">
                   <h3>Temples and Sacred sites</h3>
-                  <button>3 places<i class="bi bi-play-fill"></i></button>
+                  <form action="/explore/site" method="get">
+                    <input type="hidden" name="title" value="Temples">
+                    <button>4 places<i class="bi bi-play-fill"></i></button>
+                  </form>
               </div>
-          </a>
-  
-          <a href="hampi.html" class="site-card">
-              <img src="images/cat3.jpg" alt="Hampi">
-              <div class="card-content">
-                  <h3>Historic Caves</h3>
-                  <button>4 places<i class="bi bi-play-fill"></i></button>
-              </div>
-          </a>
+            </div>
       </div>
-  </section>
+    </section>
 
-
-<section>
-  <!-- Footer -->
-  <footer class="footer">
-      <p>© 2024 Heritage and Culture. All rights reserved.</p>
-  </footer>
-</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Heritage and Culture. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -61,12 +61,12 @@ header ul li ul.dropdown li {
 header ul li ul.dropdown {
     border-radius: 10px;
     padding: 10px;
-    font-size: 18px;
-    width: 200px;
-    background-color: #eee;
+    font-size: 22px;
+    width:200px;
+    background-color:#eee;
     position: absolute;
     z-index: 999;
-    display: none;
+    display:none;
 }
 
 header ul.dropdown li a {
@@ -76,8 +76,12 @@ header ul.dropdown li a {
 
 header ul li a:hover,
 header ul li:hover ul.dropdown {
-    background-color: #82caf3;
+    background-color: white;
     display: block;
+}
+
+header ul li a:hover{
+    background-color:transparent;
 }
 
 .state {
@@ -91,6 +95,15 @@ header ul li:hover ul.dropdown {
 .content{
     color: white;
 }
+
+.content p:first-of-type {
+    font-size: 30px;
+}
+
+.content p:nth-of-type(2) {
+    font-size: 18px;
+}
+
 
 /* Slider */
 .slider {
