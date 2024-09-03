@@ -6,19 +6,25 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 20.5510,
-                "longitude": 75.7039
+                "latitude": 20.5527,
+                "longitude": 75.7020
             }
         },
-        "imageUrl": "",
-        "overview": "The Ajanta Caves, located near Aurangabad in Maharashtra, are a remarkable collection of 30 rock-cut Buddhist cave temples. Carved into a horseshoe-shaped cliff along the Waghora River, these caves date from approximately the 2nd century BCE to the 6th century CE. They are renowned for their exquisite murals and sculptures, which vividly depict the life of the Buddha, various Jataka tales (stories of the Buddha's past lives), and significant Buddhist themes. The artwork of Ajanta is celebrated for its intricate details and the skillful use of natural pigments, providing invaluable insights into early Buddhist art and culture. Rediscovered by a British officer in 1819, the Ajanta Caves have been recognized for their exceptional historical and artistic value.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374287/ajanta4_jq2gtc.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374285/Ajanta3_rskwfh.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374253/ajanta2_mydqix.jpg"
+        ],
+        "overview": "The Ajanta Caves, located near Aurangabad in Maharashtra, are a remarkable collection of 30 rock-cut Buddhist cave temples. Carved into a horseshoe-shaped cliff along the Waghora River, these caves date from approximately the 2nd century BCE to the 6th century CE. They are renowned for their exquisite murals and sculptures, which vividly depict the life of the Buddha, various Jataka tales (stories of the Buddha's past lives), and significant Buddhist themes. The artwork of Ajanta is celebrated for its intricate details and the skillful use of natural pigments, providing invaluable insights into early Buddhist art and culture.",
         "history": {
             "earlyHistory": "The Ajanta Caves, dating back to the 2nd century BCE, are a group of 30 rock-cut Buddhist caves, known for their impressive frescoes and sculptures. They were developed under the patronage of the Satavahana dynasty and later the Vakatakas.",
             "architecturalSignificance": "The caves exhibit an extraordinary blend of architectural precision and artistic excellence, with intricately carved pillars, stupas, and chaityas. The paintings depict the life of Buddha and various Jataka tales.",
             "unescoRecognition": "Ajanta Caves were declared a UNESCO World Heritage Site in 1983, recognized for their cultural significance as masterpieces of Buddhist religious art."
         },
         "visitingHours": {
-            "openDays": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 9,
                 "to": 17.5
@@ -30,6 +36,7 @@
             "saarcBimstecCitizens": 300,
             "childrenBelow15": "Free"
         },
+        "category": "Caves",
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
@@ -37,7 +44,10 @@
             },
             "distanceFrom": 100
         },
-        "iframe": "https://www.google.com/maps?q=Ajanta+Caves+Aurangabad+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Ajanta+Caves+Aurangabad+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725286368997!6m8!1m7!1s-DS0qjcFtZkAAAQWjI_wVg!2m2!1d20.55273322117991!2d75.70203887452635!3f44.1317770282261!4f2.344866725902037!5f0.7820865974627469"
+        }
     },
     {
         "name": "Ellora Caves",
@@ -46,19 +56,26 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 20.0268,
-                "longitude": 75.1790
+                "latitude": 20.0237,
+                "longitude": 75.1791
             }
         },
-        "imageUrl": "",
-        "overview": "The Ellora Caves, situated near Aurangabad in Maharashtra, are a stunning collection of 34 rock-cut temples and monasteries that span from around 600 to 1000 CE. This UNESCO World Heritage Site is distinguished by its incredible architectural diversity, representing three major religions: Buddhism, Hinduism, and Jainism. The caves are renowned for their monumental sculptures, including the impressive Kailasa Temple (Cave 16), which is a single monolithic structure carved from a massive rock. The Ellora Caves provide a profound insight into the religious and artistic practices of ancient India.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374301/Ellora1_q035xx.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374303/ellora2_garrih.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374304/Ellora3_n3podw.jpg"
+        ],
+        "overview": "The Ellora Caves, situated near Aurangabad in Maharashtra, are a stunning collection of 34 rock-cut temples and monasteries that span from around 600 to 1000 CE. This UNESCO World Heritage Site is distinguished by its incredible architectural diversity, representing three major religions: Buddhism, Hinduism, and Jainism. The caves are renowned for their monumental sculptures, including the impressive Kailasa Temple (Cave 16), which is a single monolithic structure carved from a massive rock.",
         "history": {
             "earlyHistory": "Ellora Caves, built between the 6th and 10th centuries, are a complex of 34 caves representing Buddhist, Hindu, and Jain traditions. The site showcases the religious harmony of ancient India.",
             "architecturalSignificance": "The caves are renowned for their monumental rock-cut architecture, particularly the Kailasa temple (Cave 16), which is the largest monolithic structure in the world, carved from a single rock.",
             "unescoRecognition": "Recognized by UNESCO in 1983, Ellora Caves are celebrated for their outstanding craftsmanship and cultural synthesis across different religious traditions."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week",
+                "Closed on Tuesdays"
+            ],
             "timings": {
                 "from": 9,
                 "to": 18
@@ -70,6 +87,7 @@
             "saarcBimstecCitizens": 300,
             "childrenBelow15": "Free"
         },
+        "category": "Caves",
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
@@ -77,7 +95,10 @@
             },
             "distanceFrom": 30
         },
-        "iframe": "https://www.google.com/maps?q=Ellora+Caves+Aurangabad+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Ellora+Caves+Aurangabad+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725285379685!6m8!1m7!1sCAoSLEFGMVFpcE1MYkk3MW9qa2tSSzRYbmZZRjJqMFkweFo0MEliaXBTcE9Od0pW!2m2!1d20.0237503!2d75.1791233!3f338.7268106999801!4f17.62202878460822!5f0.7820865974627469"
+        }
     },
     {
         "name": "Elephanta Caves",
@@ -86,19 +107,26 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 18.9633,
-                "longitude": 72.9316
+                "latitude": 18.9630,
+                "longitude": 72.9320
             }
         },
-        "imageUrl": "",
-        "overview": "The Elephanta Caves are located on Elephanta Island, a short ferry ride from Mumbai. This UNESCO World Heritage Site is known for its stunning rock-cut sculptures, primarily dedicated to the Hindu god Shiva. The island's caves, carved between the 5th and 8th centuries, feature intricate carvings and a large depiction of the Trimurti, a three-headed Shiva. The Elephanta Caves offer a serene escape from the bustling city of Mumbai, showcasing the rich artistic heritage of ancient India.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374295/Elephanta1_awx1zy.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374297/Elephanta2_wjuy74.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374298/Elephanta3_b5sixr.jpg"
+        ],
+        "overview": "The Elephanta Caves are located on Elephanta Island, a short ferry ride from Mumbai. This UNESCO World Heritage Site is known for its stunning rock-cut sculptures, primarily dedicated to the Hindu god Shiva. The island's caves, carved between the 5th and 8th centuries, feature intricate carvings and a large depiction of the Trimurti, a three-headed Shiva.",
         "history": {
             "earlyHistory": "The Elephanta Caves, located on Elephanta Island, date back to the 5th to 8th centuries. These caves are primarily dedicated to Lord Shiva and reflect the rich Hindu cultural heritage of that era.",
             "architecturalSignificance": "The caves are famous for their rock-cut sculptures, especially the monumental Trimurti, a three-headed depiction of Shiva, symbolizing the creator, preserver, and destroyer.",
             "unescoRecognition": "The Elephanta Caves were designated a UNESCO World Heritage Site in 1987 for their outstanding cultural value and their exceptional artistry in rock-cut architecture."
         },
         "visitingHours": {
-            "openDays": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week",
+                "Closed on Mondays"
+            ],
             "timings": {
                 "from": 9,
                 "to": 17
@@ -110,14 +138,18 @@
             "saarcBimstecCitizens": 300,
             "childrenBelow15": "Free"
         },
+        "category": "Caves",
         "howToReach": {
             "nearestAirport": {
                 "name": "Chhatrapati Shivaji Maharaj International Airport",
                 "distanceKm": 25
             },
-            "distanceFrom": 10
+            "distanceFrom": 25
         },
-        "iframe": "https://www.google.com/maps?q=Elephanta+Caves+Mumbai+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Elephanta+Caves+Mumbai+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725286446845!6m8!1m7!1sCrHzgbx8nZ0QGJPUvBpKKA!2m2!1d18.96269696721394!2d72.93178060901471!3f300.15625082825886!4f9.551233390780212!5f0.7820865974627469"
+        }
     },
     {
         "name": "Chhatrapati Shivaji Maharaj Terminus",
@@ -126,19 +158,25 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 18.9402,
-                "longitude": 72.8356
+                "latitude": 18.9401,
+                "longitude": 72.8347
             }
         },
-        "imageUrl": "",
-        "overview": "Chhatrapati Shivaji Maharaj Terminus (CST), formerly known as Victoria Terminus, is a historic railway station located in Mumbai, Maharashtra. Completed in 1887, the station is a prime example of Victorian Gothic Revival architecture, blending elements of Indian and European styles. Designed by Frederick William Stevens, CST features ornate carvings, a grand dome, and a striking facade, reflecting the architectural grandeur of the British Raj era. The station is a vital transportation hub and a UNESCO World Heritage Site, celebrated for its architectural brilliance and historical significance.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374327/csmt1_depcbt.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374320/csmt2_u6xs89.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374345/csmt3_gfxm2v.jpg"
+        ],
+        "overview": "Chhatrapati Shivaji Maharaj Terminus (CST), formerly known as Victoria Terminus, is a historic railway station located in Mumbai, Maharashtra. Completed in 1887, the station is a prime example of Victorian Gothic Revival architecture, blending elements of Indian and European styles.",
         "history": {
             "earlyHistory": "Originally named Victoria Terminus, this historic railway station was built in 1887 to commemorate Queen Victoria's Golden Jubilee. It was designed by British architect Frederick William Stevens.",
             "architecturalSignificance": "The building is a remarkable example of Victorian Gothic Revival architecture blended with Indian influences, featuring ornate domes, turrets, and pointed arches, symbolizing Mumbai's colonial past.",
             "unescoRecognition": "In 2004, the Chhatrapati Shivaji Maharaj Terminus was declared a UNESCO World Heritage Site for its architectural grandeur and its significance as a symbol of the industrial revolution in India."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 0,
                 "to": 24
@@ -150,14 +188,18 @@
             "saarcBimstecCitizens": 0,
             "childrenBelow15": "Free"
         },
+        "category": "Railway Stations",
         "howToReach": {
             "nearestAirport": {
                 "name": "Chhatrapati Shivaji Maharaj International Airport",
-                "distanceKm": 20
+                "distanceKm": 23
             },
-            "distanceFrom": 0
+            "distanceFrom": 23
         },
-        "iframe": "https://www.google.com/maps?q=Chhatrapati+Shivaji+Maharaj+Terminus+Mumbai+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Chhatrapati+Shivaji+Maharaj+Terminus+Mumbai+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725286601793!6m8!1m7!1sCAoSLEFGMVFpcFBKTmlPR2JvdHNSLWlVS1FIeGF3ZENyQU5FYVk5cHFCN0xNVkhy!2m2!1d18.9400908!2d72.8346976!3f326.7634474657864!4f15.33377650058128!5f0.7820865974627469"
+        }
     },
     {
         "name": "Shaniwar Wada",
@@ -170,15 +212,21 @@
                 "longitude": 73.8553
             }
         },
-        "imageUrl": "",
-        "overview": "Shaniwar Wada is a historic fortification located in Pune, Maharashtra. Built in 1732 by the Peshwa Bajirao I of the Maratha Empire, Shaniwar Wada was the seat of the Peshwas until the British annexation of Pune in 1818. The fort is renowned for its grand architecture, including the main entrance known as the \"Dilli Darwaza,\" and its intricate woodwork and marble decorations. Despite suffering damage from a fire in 1828, the remains of Shaniwar Wada still reflect the splendor of Maratha architecture and serve as a significant historical monument.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374312/shani1_rryzvq.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374318/shani3_s9adck.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374339/shani2_ejtdtx.jpg"
+        ],
+        "overview": "Shaniwar Wada is a historic fortification located in Pune, Maharashtra. Built in 1732 by the Peshwa Bajirao I of the Maratha Empire, Shaniwar Wada was the seat of the Peshwas until the British annexation of Pune in 1818.",
         "history": {
-            "earlyHistory": "Shaniwar Wada was the seat of the Peshwas of the Maratha Empire, built in 1732 by Bajirao I. It played a pivotal role in the Maratha history until it was destroyed by a fire in 1828.",
+            "earlyHistory": "Shaniwar Wada was the seat of the Peshwas of the Maratha Empire, built in 1732 by Bajirao I. It played a pivotal role in Maratha history until it was destroyed by a fire in 1828.",
             "architecturalSignificance": "The fortification once boasted impressive gates, bastions, and intricate wooden carvings, reflecting the grandeur of Maratha architecture. Despite the fire, the remaining structures narrate the site's historic significance.",
             "unescoRecognition": "While Shaniwar Wada is not a UNESCO World Heritage Site, it remains a significant cultural landmark in Pune, symbolizing the power and influence of the Maratha Empire."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 9,
                 "to": 18
@@ -187,17 +235,21 @@
         "ticketInformation": {
             "indianCitizens": 25,
             "foreignTourists": 300,
-            "saarcBimstecCitizens": 300,
+            "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
+        "category": "Forts",
         "howToReach": {
             "nearestAirport": {
                 "name": "Pune International Airport",
                 "distanceKm": 12
             },
-            "distanceFrom": 0
+            "distanceFrom": 12
         },
-        "iframe": "https://www.google.com/maps?q=Shaniwar+Wada+Pune+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Shaniwar+Wada+Pune+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725286701793!6m8!1m7!1sCAoSLEFGMVFpcFBKTmlPR2JvdHNSLWlVS1FIeGF3ZENyQU5FYVk5cHFCN0xNVkhy!2m2!1d18.9400908!2d72.8346976!3f326.7634474657864!4f15.33377650058128!5f0.7820865974627469"
+        }
     },
     {
         "name": "Raigad Fort",
@@ -206,19 +258,25 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 18.2345,
-                "longitude": 73.4421
+                "latitude": 18.2368,
+                "longitude": 73.4477
             }
         },
-        "imageUrl": "",
-        "overview": "Raigad Fort, located in the Raigad district of Maharashtra, is a historic hill fort that served as the capital of the Maratha Empire under Chhatrapati Shivaji Maharaj. Positioned at an elevation of about 820 meters, the fort offers panoramic views of the surrounding landscape. Built in the 15th century, Raigad Fort is renowned for its impressive architecture, including the main entrance known as the “Maha Darwaza,” and its historical significance as the seat of the Maratha administration.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374310/rai1_pznkye.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374318/rai3_xodfcn.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374313/rai2_ptwnae.jpg"
+        ],
+        "overview": "Raigad Fort, located in the Raigad district of Maharashtra, is a historic hill fort that served as the capital of the Maratha Empire under Chhatrapati Shivaji Maharaj.",
         "history": {
             "earlyHistory": "Raigad Fort was the capital of the Maratha Empire under Chhatrapati Shivaji Maharaj, who seized it from the Bijapur Sultanate in 1656. It was here that Shivaji was crowned the King of the Marathas in 1674.",
             "architecturalSignificance": "The fort is known for its strategic location atop a hill, surrounded by deep valleys, and its complex of structures including palaces, temples, and water reservoirs, which showcase Maratha military architecture.",
             "unescoRecognition": "Though not a UNESCO World Heritage Site, Raigad Fort is a protected monument under the Archaeological Survey of India and holds immense historical importance as the birthplace of the Maratha Empire."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 9,
                 "to": 18
@@ -227,17 +285,21 @@
         "ticketInformation": {
             "indianCitizens": 25,
             "foreignTourists": 300,
-            "saarcBimstecCitizens": 300,
+            "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
+        "category": "Forts",
         "howToReach": {
             "nearestAirport": {
-                "name": "Chhatrapati Shivaji Maharaj International Airport",
+                "name": "Mumbai International Airport",
                 "distanceKm": 140
             },
-            "distanceFrom": 25
+            "distanceFrom": 140
         },
-        "iframe": "https://www.google.com/maps?q=Raigad+Fort+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Raigad+Fort+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725286911302!6m8!1m7!1sjiE2EFCgU9-QmydRPbiv5Q!2m2!1d18.23679813142168!2d73.44772289735329!3f98.72805067226257!4f3.184439205889902!5f0.7820865974627469"
+        }
     },
     {
         "name": "Bibi Ka Maqbara",
@@ -246,19 +308,26 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 19.9018,
-                "longitude": 75.3208
+                "latitude": 19.8951,
+                "longitude": 75.3163
             }
         },
-        "imageUrl": "",
-        "overview": "Bibi Ka Maqbara, often referred to as the \"Taj of the Deccan,\" is a Mughal-era mausoleum located in Aurangabad, Maharashtra. Built between 1660 and 1668 by Azam Shah, the son of Mughal Emperor Aurangzeb, the mausoleum is dedicated to his mother, Dilras Banu Begum. The structure bears a striking resemblance to the Taj Mahal in Agra, featuring a white marble dome and minarets, but is distinguished by its simpler design and the use of local materials.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374307/biwi1_d3pati.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374286/biwi3_srhrpm.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374288/biwi2_unqtjs.jpg"
+        ],
+        "overview": "Bibi Ka Maqbara, often referred to as the \"Taj of the Deccan,\" is a Mughal-era mausoleum located in Aurangabad, Maharashtra. Built between 1660 and 1668 by Azam Shah, the son of Mughal Emperor Aurangzeb, the mausoleum is dedicated to his mother, Dilras Banu Begum.",
         "history": {
             "earlyHistory": "Built in 1660 by Mughal Emperor Aurangzeb’s son, Prince Azam Shah, Bibi Ka Maqbara was intended as a tribute to his mother, Dilras Banu Begum. It is often referred to as the \"Taj of the Deccan.\"",
             "architecturalSignificance": "The monument is an example of Mughal architecture, inspired by the Taj Mahal, featuring a central dome, four minarets, and intricate stucco decorations, though on a smaller scale.",
             "unescoRecognition": "Bibi Ka Maqbara is not a UNESCO World Heritage Site, but it remains an important cultural landmark and a fine example of Mughal architecture in the Deccan region."
         },
         "visitingHours": {
-            "openDays": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+            "openDays": [
+                "All days of the week",
+                "Closed on Fridays"
+            ],
             "timings": {
                 "from": 9,
                 "to": 17.5
@@ -267,38 +336,48 @@
         "ticketInformation": {
             "indianCitizens": 25,
             "foreignTourists": 300,
-            "saarcBimstecCitizens": 300,
+            "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
+        "category": "Mausoleums",
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
-                "distanceKm": 11
+                "distanceKm": 10
             },
-            "distanceFrom": 5
+            "distanceFrom": 10
         },
-        "iframe": "https://www.google.com/maps?q=Bibi+Ka+Maqbara+Aurangabad+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Bibi+Ka+Maqbara+Aurangabad+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725286978404!6m8!1m7!1sCAoSLEFGMVFpcE1YSGJibkVzRHFYVEVPclJQeWJWeE55Z010cFhBSGJtQW00QW9O!2m2!1d19.8950994!2d75.3162552!3f8.206685161144012!4f11.5217706403797!5f0.7820865974627469"
+        }
     },
     {
         "name": "Sindhudurg Fort",
         "location": {
-            "city": "Malvan",
+            "city": "Sindhudurg",
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 16.0405,
-                "longitude": 73.4731
+                "latitude": 16.0434,
+                "longitude": 73.4610
             }
         },
-        "imageUrl": "",
-        "overview": "Sindhudurg Fort is a historic sea fort located on an island off the coast of Malvan in Maharashtra. Built by Chhatrapati Shivaji Maharaj between 1664 and 1667, the fort was designed to protect the Maratha naval base and the Konkan coast from foreign invasions. The fort is renowned for its strategic location, robust construction, and the presence of ancient temples and cannons. Its isolation and scenic surroundings make it a popular destination for history enthusiasts and nature lovers alike.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374320/sindhudurg1_musgxf.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374325/Sindhudurg2_u3tyiu.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374324/sindhudurg3_gsr85p.jpg"
+        ],
+        "overview": "Sindhudurg Fort is a historic sea fort located on an island off the coast of Malvan in Maharashtra. Built by Chhatrapati Shivaji Maharaj between 1664 and 1667, the fort was designed to protect the Maratha naval base and the Konkan coast from foreign invasions.",
         "history": {
             "earlyHistory": "Sindhudurg Fort, located on an island in the Arabian Sea, was built by Chhatrapati Shivaji Maharaj in 1664-67 to counter rising foreign and domestic threats and to bolster the Maratha naval power.",
             "architecturalSignificance": "The fort is a testament to Maratha engineering, with its massive walls built using lime, lead, and honey. The fort's strategic location and construction make it an exceptional example of coastal defense.",
             "unescoRecognition": "Sindhudurg Fort is not a UNESCO World Heritage Site, but it is recognized for its historical importance and its role in establishing Maratha maritime dominance."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 9,
                 "to": 18
@@ -307,17 +386,21 @@
         "ticketInformation": {
             "indianCitizens": 20,
             "foreignTourists": 200,
-            "saarcBimstecCitizens": 200,
+            "saarcBimstecCitizens": 20,
             "childrenBelow15": "Free"
         },
+        "category": "Forts",
         "howToReach": {
             "nearestAirport": {
                 "name": "Goa International Airport",
-                "distanceKm": 130
+                "distanceKm": 95
             },
-            "distanceFrom": 1
+            "distanceFrom": 95
         },
-        "iframe": "https://www.google.com/maps?q=Sindhudurg+Fort+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Sindhudurg+Fort+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725287079807!6m8!1m7!1sCAoSLEFGMVFpcE9laXMydXA5YTVRNFdocnFxNHlDSVd0M0tQWWU5SG8zVnVhbUo3!2m2!1d16.04338627450758!2d73.46099543204319!3f133.22357759592091!4f5.033613385708719!5f0.7820865974627469"
+        }
     },
     {
         "name": "Kanheri Caves",
@@ -326,19 +409,26 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 19.2147,
-                "longitude": 72.9106
+                "latitude": 19.2082,
+                "longitude": 72.9049
             }
         },
-        "imageUrl": "",
-        "overview": "Kanheri Caves are a group of Buddhist rock-cut caves located in the Sanjay Gandhi National Park, Mumbai. Carved between the 1st century BCE and the 10th century CE, these caves were an important center of Buddhism and served as monasteries and meditation halls. The caves are known for their intricate carvings, ancient inscriptions, and the presence of a large stupa. Kanheri Caves offer a serene environment amidst the lush greenery of the national park, providing a glimpse into ancient Buddhist life and architecture.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374309/kanheri1_jfk63x.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374309/kanheri2_jamaae.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374310/kanheri3_oc8qsj.jpg"
+        ],
+        "overview": "Kanheri Caves are a group of Buddhist rock-cut caves located in the Sanjay Gandhi National Park, Mumbai. Carved between the 1st century BCE and the 10th century CE, these caves were an important center of Buddhism and served as monasteries and meditation halls.",
         "history": {
             "earlyHistory": "The Kanheri Caves, dating back to the 1st century BCE, are a group of Buddhist caves carved into the basalt rock of the Sanjay Gandhi National Park. They were an important center for Buddhist learning and meditation.",
             "architecturalSignificance": "The caves feature large viharas (monastic cells), chaityas (prayer halls), and intricately carved stupas, reflecting the evolution of Buddhist architecture over centuries.",
             "unescoRecognition": "Although not a UNESCO World Heritage Site, Kanheri Caves are protected by the Archaeological Survey of India and are an important cultural and religious site in Mumbai."
         },
         "visitingHours": {
-            "openDays": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week",
+                "Closed on Mondays"
+            ],
             "timings": {
                 "from": 9,
                 "to": 17
@@ -347,17 +437,21 @@
         "ticketInformation": {
             "indianCitizens": 20,
             "foreignTourists": 200,
-            "saarcBimstecCitizens": 200,
+            "saarcBimstecCitizens": 20,
             "childrenBelow15": "Free"
         },
+        "category": "Caves",
         "howToReach": {
             "nearestAirport": {
                 "name": "Chhatrapati Shivaji Maharaj International Airport",
-                "distanceKm": 20
+                "distanceKm": 35
             },
-            "distanceFrom": 10
+            "distanceFrom": 35
         },
-        "iframe": "https://www.google.com/maps?q=Kanheri+Caves+Mumbai+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Kanheri+Caves+Mumbai+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725287138624!6m8!1m7!1sCAoSLEFGMVFpcE5sOG1LVmhOakZkaXB2UjRpcU5zZjhBRElXbnR0aU1yd204clRY!2m2!1d19.2081808!2d72.9048549!3f97.69329417888962!4f6.176705178885939!5f0.7820865974627469"
+        }
     },
     {
         "name": "Daulatabad Fort",
@@ -366,19 +460,25 @@
             "state": "Maharashtra",
             "country": "India",
             "coordinates": {
-                "latitude": 20.0268,
-                "longitude": 75.2125
+                "latitude": 19.9435,
+                "longitude": 75.2180
             }
         },
-        "imageUrl": "",
-        "overview": "Daulatabad Fort, located near Aurangabad in Maharashtra, is a historic fortification known for its strategic location and formidable defenses. Originally known as Devagiri Fort, it was renamed Daulatabad (\"City of Prosperity\") after being captured by the Delhi Sultanate in the 14th century. The fort is renowned for its innovative fortification techniques, including a complex network of defenses, a water supply system, and a challenging approach path. It served as the capital of the Tughlaq dynasty for a brief period and remains a significant example of medieval military architecture.",
+        "imageUrl": [
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374290/dau1_motv2g.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374303/dau2_noqjci.jpg",
+            "https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725374294/dau3_qbjuim.jpg"
+        ],
+        "overview": "Daulatabad Fort, located near Aurangabad in Maharashtra, is a historic fortification known for its strategic location and formidable defenses. Originally known as Devagiri Fort, it was renamed Daulatabad ('City of Prosperity') after being captured by the Delhi Sultanate in the 14th century.",
         "history": {
             "earlyHistory": "Originally known as Devagiri, Daulatabad Fort was built in the 12th century by the Yadava dynasty and later became the capital under Sultan Muhammad bin Tughlaq in the 14th century. It is famous for its strategic location and formidable defenses.",
             "architecturalSignificance": "The fort is known for its ingenious defenses, including a labyrinth of passages, steep slopes, and a moat filled with crocodiles. The Chand Minar and the Jami Masjid within the fort complex are notable architectural features.",
             "unescoRecognition": "While Daulatabad Fort is not a UNESCO World Heritage Site, it is recognized as a site of historical and architectural significance, drawing attention to its role in medieval Indian history."
         },
         "visitingHours": {
-            "openDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "openDays": [
+                "All days of the week"
+            ],
             "timings": {
                 "from": 9,
                 "to": 18
@@ -387,16 +487,20 @@
         "ticketInformation": {
             "indianCitizens": 25,
             "foreignTourists": 300,
-            "saarcBimstecCitizens": 300,
+            "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
+        "category": "Forts",
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
-                "distanceKm": 22
+                "distanceKm": 15
             },
             "distanceFrom": 15
         },
-        "iframe": "https://www.google.com/maps?q=Daulatabad+Fort+Aurangabad+Maharashtra+India&z=15&output=embed"
+        "iframe": {
+            "map": "https://www.google.com/maps?q=Daulatabad+Fort+Aurangabad+Maharashtra+India&z=15&output=embed",
+            "streetView": "https://www.google.com/maps/embed?pb=!4v1725287210920!6m8!1m7!1s-1dynNcsXKCA63uTBvlTxg!2m2!1d19.94348492231036!2d75.21801286152751!3f265.3878062715767!4f-1.563815405292985!5f0.7820865974627469"
+        }
     }
 ]

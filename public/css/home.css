@@ -173,15 +173,17 @@ header ul li:hover ul.dropdown {
     left: 5px;
 }
 
-.arrows button {
+.arrows button{
     position: absolute;
     background-color: #eee5;
     border: none;
+    font-family: monospace;
     width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    font-size: x-large;
-    transition: .5s;
+   height: 40px;
+   border-radius: 5px;
+   font-size: x-large;
+   color-scheme: #eee;
+   transition: .5s; 
 }
 
 .arrows button:hover {

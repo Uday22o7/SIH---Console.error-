@@ -37,11 +37,9 @@ app.post("/", async (req, res) => {
     try {
         if (state === "india") {
             const heritageSite = await topIndia.find({}).limit(4);
-            console.log(heritageSite);
             res.json(heritageSite);
         } else {
             const heritageSite = await allSites.find({ 'location.state': state }).limit(4);
-            console.log(heritageSite);
             res.json(heritageSite);
         }
     } catch (err) {
@@ -59,19 +57,21 @@ app.get("/explore", (req, res) => {
 
 app.get("/explore/site", async (req, res) => {
     const { title } = req.query;
-    const heritageSite = await topIndia.find({}).limit(8);
-    res.render("./explore2.ejs", { heritageSite });
+    if (title === "unescoRecognition") {
+        const heritageSite = await topIndia.find({}).limit(8);
+        return res.render("./explore2.ejs", { heritageSite });
+    } else {
+        const heritageSite = await allSites.find({ category: title });
+        return res.render("./explore2.ejs", { heritageSite });
+    }
 });
 
 // Show page
 app.get("/explore/site/:id", async (req, res) => {
     const { id } = req.params
-    console.log(id);
     const heritageSite = await topIndia.find({ _id: id });
-    console.log(heritageSite)
     if (!heritageSite.length) {
         const heritageSite = await allSites.find({ _id: id });
-        console.log(heritageSite)
         return res.render("./show.ejs", { heritageSite })
     }
     res.render("./show.ejs", { heritageSite })
