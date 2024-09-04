@@ -104,9 +104,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the start */
     padding: 20px;
-    margin: 0;
 }
 
 .site-card {
@@ -114,10 +113,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 22%;
+    flex: 0 1 23%; /* Ensures four cards fit in one row at full size */
     text-align: center;
     transition: transform 0.2s;
-    display: block;
     text-decoration: none;
 }
 

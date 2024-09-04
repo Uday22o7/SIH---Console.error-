@@ -1,0 +1,203 @@
+[
+    {
+        "name": "Diwali",
+        "overview": "Diwali, also known as Deepavali, is one of the most significant and widely celebrated festivals in India, symbolizing the triumph of light over darkness and good over evil. Spanning five days, Diwali is a time of joyous celebration marked by the lighting of oil lamps (diyas), intricate rangoli designs, and vibrant fireworks. Homes, temples, and public spaces are adorned with thousands of lights and colorful decorations. The festival also emphasizes family gatherings, with people exchanging sweets, gifts, and greetings.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440135/diwali_1_rpitoc.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440135/diwali_2_ot0czw.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440135/diwali_3_jppqde.jpg"],
+        "history": {
+            "origin": "Diwali has its roots in several mythological events, such as the return of Lord Rama to Ayodhya after defeating the demon king Ravana. The festival also honors the victory of Lord Krishna over the demon Narakasura and the worship of Goddess Lakshmi.",
+            "significance": "The festival symbolizes the triumph of light over darkness and knowledge over ignorance, fostering a sense of unity and joy among communities and families."
+        },
+        "celebrationType": [
+            "Lighting of Diyas:Diwali is characterized by the lighting of oil lamps and candles that illuminate homes and public spaces, creating a festive and radiant atmosphere.",
+            "Fireworks and Festivities:The night sky comes alive with vibrant fireworks, and the air is filled with excitement and joy. Community events and gatherings further enhance the celebratory mood.",
+            "Pujas and Offerings:Special prayers and offerings are made to Goddess Lakshmi and Lord Ganesha, with families performing rituals to invite prosperity and remove obstacles."
+        ],
+        "popularPlace": [
+            "Varanasi:Known for its spectacular Diwali celebrations along the ghats of the Ganges River, with a grand display of lights and decorations.",
+            "Delhi: Features elaborate light displays, festive markets, and cultural events throughout the city.",
+            "Mumbai: Celebrated with large-scale events, vibrant fireworks, and intricate decorations that light up the city."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Holi",
+        "overview": "Holi, often referred to as the Festival of Colors, is a vibrant and exuberant celebration that marks the arrival of spring and the victory of good over evil. This lively festival is celebrated with playful color fights, where people throw brightly colored powders and water at each other, creating a rainbow of hues. Holi is a time for joy, music, dance, and the breaking of social barriers as people from all walks of life come together to celebrate.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440134/holi_1_e6nmdn.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/holi_2_upx809.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440137/holi_3_emjnle.jpg"],
+        "history": {
+            "origin": "Holi's origins are linked to the legend of Holika and Prahlad. Holika, the demoness, tried to kill the devoted Prahlad using her magical powers, but his devotion to Lord Vishnu protected him, and Holika was burned in the fire, symbolizing the victory of devotion and righteousness.",
+            "significance": "The festival represents the triumph of good over evil, the arrival of spring, and the celebration of life and nature. It encourages people to let go of past grievances, embrace forgiveness, and start anew with a fresh perspective."
+        },
+        "celebrationType": [
+            "Colorful Celebrations: Participants engage in playful color throwing, creating a lively and colorful environment. The streets and public spaces are filled with people covered in vibrant powders.",
+            "Bonfires: Holika Dahan involves lighting bonfires to commemorate the defeat of Holika and to symbolize the destruction of evil.",
+            "Festive Foods: Traditional sweets and snacks, such as gujiya and thandai, are prepared and enjoyed during the festival."
+        ],
+        "popularPlace": [
+            "Mathura: Known as the birthplace of Lord Krishna, Mathura hosts some of the most traditional and vibrant Holi celebrations.",
+            "Jaipur: Famous for its royal Holi festivities and cultural events.",
+            "Holi in the Himalayas(Shimla, Manali): Celebrated in various hill stations like Shimla and Manali with unique local traditions and scenic beauty."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Navratri",
+        "overview": "Navratri is a vibrant and spiritually significant Hindu festival dedicated to the worship of Goddess Durga. Spanning nine nights, the festival involves fasting, prayer, and various cultural performances. Each night is dedicated to a different form of the goddess, with devotees participating in devotional activities like singing bhajans, performing dances like Garba and Dandiya, and engaging in community feasts.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440139/navrati_1_xncr26.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440139/navrati_2_rfbkyp.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440139/navrati_3_p8ftza.jpg"],
+        "history": {
+            "origin": "Navratri honors the divine feminine power embodied by Goddess Durga, who defeated the demon Mahishasura after a prolonged battle. The festival is rooted in ancient Hindu texts and reflects the power and grace of the goddess.",
+            "significance": "The festival signifies the victory of good over evil and the importance of divine intervention in overcoming challenges. It is a time for worshippers to seek the goddess's blessings and to participate in spiritual and cultural practices."
+        },
+        "celebrationType": [
+            "Fasting and Prayer: Devotees observe fasts and perform rituals dedicated to Goddess Durga. Temples and homes are decorated with images of the goddess.",
+            "Cultural Performances: Traditional dances such as Garba and Dandiya are performed, especially in Gujarat, where these dance forms are integral to the celebrations.",
+            "Community Feasts: Special meals and sweets are prepared, and community feasts are organized as part of the celebrations."
+        ],
+        "popularPlace": [
+            "Gujarat: Known for its elaborate Garba and Dandiya nights, with cities like Ahmedabad and Vadodara being popular destinations.",
+            "Varanasi: Celebrated with intense devotion and elaborate rituals at numerous temples.",
+            "Mumbai: Features grand processions, cultural performances, and vibrant festivities throughout the city."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Ganesh Chaturthi",
+        "overview": "Ganesh Chaturthi is a vibrant Hindu festival dedicated to Lord Ganesha, the elephant-headed deity symbolizing wisdom, prosperity, and new beginnings. The festival spans ten days, beginning on the fourth day of the Hindu month of Bhadrapada. Devotees bring home clay idols of Lord Ganesha, perform elaborate rituals, and offer prayers and sweets. The festival culminates in the immersion of the idols in water bodies, symbolizing the deity’s return to his celestial abode.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440139/ganesh2_w93ydk.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440137/ganesh1_rkad1k.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440134/ganesh3_aq4jjt.jpg"],
+        "history": {
+            "origin": "The festival commemorates the birth of Lord Ganesha, the son of Lord Shiva and Goddess Parvati. It celebrates his emergence from a clay idol and his unique form, symbolizing wisdom and good fortune.",
+            "significance": "Ganesh Chaturthi highlights the themes of renewal, devotion, and communal harmony. It is a time for people to seek Ganesha’s blessings for overcoming obstacles and achieving success."
+        },
+        "celebrationType": [
+            "Idol Worship: Clay idols of Lord Ganesha are installed in homes and public places, and elaborate decorations are made.",
+            "Rituals and Prayers: Devotees perform rituals and offer prayers, sweets, and flowers to the deity.",
+            "Immersion Processions: The festival concludes with grand processions where idols are immersed in water bodies, symbolizing Ganesha’s return to his divine realm."
+        ],
+        "popularPlace": [
+            "Mumbai: Known for its grand Ganesh Chaturthi celebrations, with large processions and public installations of Ganesha idols.",
+            "Pune: Celebrated with traditional events and cultural performances.",
+            "Hyderabad: Features vibrant festivities and large-scale immersion ceremonies."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Durga Puja",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/durga3_azzj3j.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440137/durga2_zg3tz7.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440135/durga1_nc3ud9.jpg"],
+        "overview": "Durga Puja is a grand Hindu festival celebrating Goddess Durga's victory over the buffalo demon Mahishasura. The festival, which lasts for ten days, is especially prominent in West Bengal and other Eastern states of India. It involves elaborate rituals, cultural performances, and community feasts. The festivities include the creation of beautifully crafted idols of Goddess Durga, vibrant processions, traditional dances, and the performance of classical music and dramas.",
+        "history": {
+            "origin": "Durga Puja commemorates Goddess Durga’s triumph over Mahishasura, a demon who terrorized the heavens and earth. The goddess, created by the collective powers of the gods, vanquished the demon, restoring peace and harmony.",
+            "significance": "The festival celebrates the divine feminine power and the victory of good over evil. It highlights themes of courage, strength, and the protective nature of the goddess."
+        },
+        "celebrationType": [
+            "Idol Worship: Elaborate idols of Goddess Durga are created and installed in pandals (temporary structures) across communities.",
+            "Cultural Programs: The festival includes performances of traditional dance, music, and drama. Cultural competitions and exhibitions are also organized.",
+            "Community Feasts: Special meals are prepared and shared with family and friends as part of the celebrations."
+        ],
+        "popularPlace": [
+            "Kolkata: Renowned for its grand Durga Puja celebrations, with intricate pandal decorations and cultural performances.",
+            "Delhi: Features vibrant Durga Puja events and community gatherings.",
+            "Mumbai: Hosts several Durga Puja pandals and cultural programs."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Pongal",
+        "overview": "Pongal is a significant harvest festival celebrated primarily in Tamil Nadu. It marks the end of the harvest season and is dedicated to the Sun God, who is believed to bring prosperity and good fortune. The festival, which spans four days, involves preparing and sharing a special dish called Pongal, made from newly harvested rice, milk, and jaggery. The festival is characterized by festive decorations, traditional music and dance, and rituals to honor nature and the harvest.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/pongal1_g6t2su.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/pongal2_m144ct.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/pongal_3_sd8poc.jpg"],
+        "history": {
+            "origin": "Pongal has ancient roots in Tamil culture and is closely linked to agricultural practices. It is celebrated to honor the Sun God and to give thanks for the bountiful harvest.",
+            "significance": "The festival represents the end of the harvest season and the beginning of a new agricultural cycle. It emphasizes gratitude, prosperity, and communal harmony."
+        },
+        "celebrationType": [
+            "Pongal Preparation: The central dish, Pongal, is cooked in large pots, and special rituals are performed during its preparation.",
+            "Festive Decorations: Homes and public spaces are decorated with colorful kolams (rangoli designs) and traditional ornaments.",
+            "Cultural Events: Traditional music and dance performances, along with various competitions and games, are organized during the festival."
+        ],
+        "popularPlace": [
+            "Chennai: Known for its grand Pongal celebrations with traditional rituals and cultural programs.",
+            "Madurai: Features elaborate Pongal festivities and community gatherings.",
+            "Coimbatore: Celebrated with traditional events and vibrant decorations."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Raksha Bandhan",
+        "overview": "Raksha Bandhan is a heartwarming festival celebrating the bond between brothers and sisters. On this day, sisters tie a protective thread or rakhi around their brothers' wrists, symbolizing their love and prayers for their well-being. In return, brothers give gifts and pledge to protect and support their sisters. The festival is observed across India and is marked by family gatherings, feasts, and exchanging of gifts.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/rakshabhandhan1_qe6ql1.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/rakshabhandhan2_epho09.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725445660/pexels-extrovision-12992568_tluegc.jpg"],
+        "history": {
+            "origin": "Raksha Bandhan has historical roots in various legends and myths. One popular legend involves the bond between King Bali and Goddess Lakshmi, who tied a rakhi to ensure the king’s protection.",
+            "significance": "The festival celebrates the sacred bond of protection and love between siblings. It symbolizes the promise of support and care that transcends time and distance."
+        },
+        "celebrationType": [
+            "Raksha Bandhan Rituals: Sisters tie rakhis on their brothers’ wrists and perform aarti (ritual prayer) while brothers give gifts and sweets.",
+            "Family Gatherings: Families come together to celebrate the festival with special meals and festive activities.",
+            "Exchanging Gifts: Brothers and sisters exchange gifts as a token of their affection and commitment."
+        ],
+        "popularPlace": [
+            "Delhi: Celebrated with elaborate family gatherings and festive events.",
+            "Mumbai: Features vibrant Raksha Bandhan celebrations with community activities and family gatherings.",
+            "Jaipur: Known for its traditional festivities and cultural practices associated with Raksha Bandhan."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Lohri",
+        "overview": "Lohri is a popular Punjabi festival celebrated with great enthusiasm in the northern regions of India, particularly Punjab. It marks the end of winter and the beginning of the harvest season. The festival involves lighting bonfires, singing traditional songs, dancing around the fire, and enjoying festive foods like til (sesame seeds) and gur (jaggery). Lohri is a time of joy, community bonding, and celebration of the harvest.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440138/lohri2_t7ulrz.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440138/lohri3_ycmyfs.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440138/lohri1_ehyugr.jpg"],
+        "history": {
+            "origin": "Lohri is associated with the harvest festival and is celebrated to honor the end of winter and the beginning of the harvest season. It is also linked to the legend of Dulla Bhatti, a folk hero known for his acts of bravery and generosity.",
+            "significance": "The festival symbolizes the end of winter, the start of the harvest season, and the importance of community and familial bonds."
+        },
+        "celebrationType": [
+            "Bonfires: Large bonfires are lit, and people gather around to sing, dance, and offer traditional foods to the fire.",
+            "Traditional Music and Dance: Festive songs and dances, including Bhangra and Gidda, are performed around the bonfire.",
+            "Festive Foods: Traditional foods such as til, gur, and popcorn are enjoyed during the celebrations."
+        ],
+        "popularPlace": [
+            "Punjab: Known for its vibrant Lohri celebrations with grand bonfires and community festivities.",
+            "Delhi: Celebrated with traditional rituals and cultural events.",
+            "Haryana: Features festive gatherings and traditional performances."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+    {
+        "name": "Eid al-Fitr",
+        "overview": "Eid al-Fitr, also known as the Festival of Breaking the Fast, marks the end of Ramadan, the Islamic holy month of fasting. The festival is celebrated with a special prayer service, festive meals, and the giving of Zakat al-Fitr (charitable donations) to the needy. It is a time of joy, gratitude, and community bonding, with families and friends coming together to share meals, exchange gifts, and enjoy festive activities.",
+        "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/eid1_gfhgmo.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440138/eid2_mjqwpz.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440137/eid3_qxnqve.jpg"],
+        "history": {
+            "origin": "Eid al-Fitr has its origins in the teachings of the Prophet Muhammad, who established the festival as a time to celebrate the completion of Ramadan and to express gratitude to Allah. The festival emphasizes the importance of charity and community.",
+            "significance": "The festival symbolizes the end of Ramadan, a month of fasting, prayer, and reflection. It represents a time for spiritual renewal, communal harmony, and gratitude."
+        },
+        "celebrationType": [
+            "Special Prayers: Muslims gather in mosques for special Eid prayers and sermons.",
+            "Festive Meals: Families and friends share elaborate meals, including traditional dishes and sweets.",
+            "Charity: Zakat al-Fitr is given to those in need as part of the festival's charitable aspect."
+        ],
+        "popularPlace": [
+            "Delhi: Known for its grand Eid celebrations, with special prayers at major mosques and festive events across the city.",
+            "Mumbai: Features vibrant Eid festivities with community gatherings and special meals.",
+            "Hyderabad: Celebrated with traditional rituals, prayers, and festive activities."
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+    },
+   {
+    "name": "Onam",
+    "overview": "Onam is a major festival celebrated in Kerala, marking the harvest season and the homecoming of the mythical King Mahabali. The festival lasts for ten days and is characterized by vibrant processions, traditional dances, and a grand feast known as the Onam Sadhya. The celebrations include the famous Vallam Kali (boat races), intricate floral decorations, and various cultural events that showcase Kerala's rich heritage. Onam is a time of joy and community spirit, with families coming together to celebrate their cultural traditions and enjoy the festive atmosphere. The festival emphasizes unity, prosperity, and the beauty of Kerala’s traditions and customs.",
+    "imageUrl":["https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440139/onam1_bldy1j.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440139/onam2_k4lcib.jpg","https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/onam3_rrteta.jpg"],
+    "history": {
+        "origin": "Onam commemorates the homecoming of King Mahabali, a benevolent ruler whose annual visit to his kingdom is celebrated by the people of Kerala. The festival is rooted in ancient mythology and agricultural practices.",
+        "significance": "Onam celebrates the harvest season, the spirit of unity, and the rich cultural heritage of Kerala. It highlights themes of prosperity, community, and traditional values."
+    },
+    "celebrationType": [
+        "Onam Sadhya: A grand feast with a variety of traditional dishes served on a banana leaf.",
+        "Vallam Kali: Traditional boat races held on the backwaters of Kerala.",
+        "Cultural Programs: Includes traditional dances like Kathakali and Mohiniyattam, and various cultural performances."
+    ],
+    "popularPlace": [
+        "Kochi: Known for its vibrant Onam celebrations with cultural events and festive activities.",
+        "Thiruvananthapuram: Features traditional Onam festivities and community gatherings.",
+        "Alleppey: Celebrated with the famous Vallam Kali (boat races) and elaborate Onam Sadhya."
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376451.789740888!2d72.8054165724175!3d19.076092745975196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b79e9c000001%3A0x8a4e2b3de82b7f45!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1664858922467!5m2!1sen!2sin"
+}
+]
+
