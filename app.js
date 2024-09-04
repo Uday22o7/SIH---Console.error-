@@ -61,7 +61,7 @@ app.get("/explore/site", async (req, res) => {
         return res.render("./explore2.ejs", { heritageSite });
     } else if (title === "Cultures") {
         const heritageSite = await Culture.find({})
-        return res.render("./explore2.ejs", { heritageSite });
+        return res.render("./exploreculture.ejs", { heritageSite });
     } else {
         const heritageSite = await allSites.find({ category: title });
         return res.render("./explore2.ejs", { heritageSite });
@@ -74,6 +74,10 @@ app.get("/explore/site/:id", async (req, res) => {
     const heritageSite = await topIndia.find({ _id: id });
     if (!heritageSite.length) {
         const heritageSite = await allSites.find({ _id: id });
+        if (!heritageSite.length) {
+            const heritageSite = await Culture.find({ _id: id });
+            return res.render("./culture.ejs", { heritageSite })
+        }
         return res.render("./show.ejs", { heritageSite })
     }
     res.render("./show.ejs", { heritageSite })

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heritage and Culture Page</title>
+    <link rel="stylesheet" href="/css/explore_se.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo"><img src="/img/logo.svg" alt="Taj Mahal"></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="/explore">Explore</a></li>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Explore Section -->
+    <section id="heritage-sites">
+        <h2 class="explore-text">Cultures of India</h2>
+        <div class="site-container">
+            <% for (let sites of heritageSite) { %>
+                <a href="/explore/site/<%= sites._id %>" class="site-card">
+                    <img src="<%= sites.imageUrl[0] %>" alt="">
+                    <div class="card-content">
+                        <h3>
+                            <%= sites.name %>
+                        </h3>
+                        <p>
+                            <%= sites.history.earlyHistory %>
+                        </p>
+                    </div>
+                </a>
+                <% } %>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Heritage and Culture. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/explore-se.js"></script>
+</body>
+
+</html>
