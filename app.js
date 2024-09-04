@@ -4,6 +4,7 @@ const ejsMate = require("ejs-mate")
 const mongoose = require("mongoose");
 const topIndia = require("./model/heritageSite")
 const allSites = require("./model/all_heritageSite")
+const Culture = require("./model/culture")
 const bodyParser = require("body-parser")
 const app = express();
 const port = 8000;
@@ -57,6 +58,9 @@ app.get("/explore/site", async (req, res) => {
     const { title } = req.query;
     if (title === "unescoRecognition") {
         const heritageSite = await topIndia.find({}).limit(8);
+        return res.render("./explore2.ejs", { heritageSite });
+    } else if (title === "Cultures") {
+        const heritageSite = await Culture.find({})
         return res.render("./explore2.ejs", { heritageSite });
     } else {
         const heritageSite = await allSites.find({ category: title });
