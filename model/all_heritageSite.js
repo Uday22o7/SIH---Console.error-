@@ -31,7 +31,7 @@ const allHeritageSchema = new mongoose.Schema({
         saarcBimstecCitizens: Number,
         childrenBelow15:String, 
     },
-    category:String,
+    category:[String],
     howToReach: {
         nearestAirport: {
             name: String,

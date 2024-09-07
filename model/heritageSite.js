@@ -38,7 +38,7 @@ const top10heritageschema = new mongoose.Schema({
         },
         distanceFrom: Number
     },
-    category:String,
+    category:[String],
     iframe:{
         map:String,
         streetView:String

@@ -43,7 +43,9 @@
             },
             "distanceFrom": 200
         },
-        "category": "",
+        "category": [
+            "unescoRecognition"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Taj+Mahal+Dharmapuri+Forest+Colony+Tajganj+Agra+Uttar+Pradesh+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725176855130!6m8!1m7!1s4GVgfyiXaZYAAAGun7pojw!2m2!1d27.17529056221529!2d78.04078770980118!3f96.33451417239706!4f3.0232874806116286!5f0.7820865974627469"
@@ -93,7 +95,10 @@
             },
             "distanceFrom": 0
         },
-        "category": "Fort",
+        "category": [
+            "unescoRecognition",
+            "Fort"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Agra+Fort+Rakabganj+Agra+Uttar+Pradesh+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725284431870!6m8!1m7!1sCAoSLEFGMVFpcE1FQm5qX0Q4UHowUXYtRncwTV92ZFJzUGotVWdQSHhsWW5aMXdF!2m2!1d27.179202!2d78.02381969999999!3f343.8103!4f5.514470000000003!5f0.7820865974627469"
@@ -143,7 +148,9 @@
             },
             "distanceFrom": 10
         },
-        "category": "Monuments",
+        "category": [
+            "unescoRecognition"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Qutub+Minar+Mehrauli+Delhi+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725284587100!6m8!1m7!1sCAoSLEFGMVFpcFBJdTJ6ZXFucnd3Z19mTS15YllreDcxM09GM3l6V2V2T1ZrOU5h!2m2!1d28.5244946!2d77.18551769999999!3f149.44005922409545!4f23.631746208151668!5f0.7820865974627469"
@@ -193,7 +200,9 @@
             },
             "distanceFrom": 3
         },
-        "category": "Mausoleum",
+        "category": [
+            "unescoRecognition"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Humayun's+Tomb+Delhi+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725284710914!6m8!1m7!1sx1ApAXO25YSftbTvNzsBKg!2m2!1d28.59440032100516!2d77.25072638122083!3f184.03163377886617!4f-7.627233731130431!5f0.7820865974627469"
@@ -243,7 +252,10 @@
             },
             "distanceFrom": 2
         },
-        "category": "Temples",
+        "category": [
+            "unescoRecognition",
+            "Temples"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Sun+Temple+Konark+Odisha+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725284855719!6m8!1m7!1sCAoSLEFGMVFpcE5vVWx6MENTTjNpSE15V1NBWTdCYVFFa3Bsc2d3RmZ6NGtWMGVZ!2m2!1d19.8875953!2d86.0945364!3f254.31903269043386!4f14.91445487546929!5f0.7820865974627469"
@@ -293,7 +305,10 @@
             },
             "distanceFrom": 5
         },
-        "category": "Temples",
+        "category": [
+            "unescoRecognition",
+            "Temples"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Khajuraho+Group+of+Monuments+Madhya+Pradesh+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725285058371!6m8!1m7!1sCAoSLEFGMVFpcE5FTHFaUmZ0Tm1VVk9CS1h4dHRxZl9yU3NSTTNYWUhWSUFHdXN1!2m2!1d24.8531246!2d79.9196625!3f182.60442362208175!4f19.284960258993635!5f0.7820865974627469"
@@ -343,7 +358,10 @@
             },
             "distanceFrom": 30
         },
-        "category": "Caves",
+        "category": [
+            "unescoRecognition",
+            "Caves"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Ajanta+Ellora+Caves+Maharashtra+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725285379685!6m8!1m7!1sCAoSLEFGMVFpcE1MYkk3MW9qa2tSSzRYbmZZRjJqMFkweFo0MEliaXBTcE9Od0pW!2m2!1d20.0237503!2d75.1791233!3f338.7268106999801!4f17.62202878460822!5f0.7820865974627469"
@@ -393,7 +411,9 @@
             },
             "distanceFrom": 143
         },
-        "category": "Heritage Site",
+        "category": [
+            "unescoRecognition"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Hampi+Karnataka+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725285675167!6m8!1m7!1sCAoSLEFGMVFpcE9mNFk5cnViaHl3X09HVnlSSDBMRDZLcERuVllTWF9keGJOanpl!2m2!1d15.3351865!2d76.4596919!3f109.18063446073441!4f20.15713815352376!5f0.7820865974627469"
@@ -443,7 +463,10 @@
             },
             "distanceFrom": 40
         },
-        "category": "Forts",
+        "category": [
+            "unescoRecognition",
+            "Forts"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Fatehpur+Sikri+Uttar+Pradesh+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725285782409!6m8!1m7!1sCAoSLEFGMVFpcE9XSDQxYlJiUzJxVG9sRFJrQ1VKYk84Z3FBRHlRYkdRZndneTRn!2m2!1d27.094254!2d77.6629815!3f23.623397663468293!4f21.236851445531443!5f0.7820865974627469"
@@ -493,7 +516,10 @@
             },
             "distanceFrom": 60
         },
-        "category": "Temples",
+        "category": [
+            "unescoRecognition",
+            "Temples"
+        ],
         "iframe": {
             "map": "https://www.google.com/maps?q=Mahabalipuram+Tamil+Nadu+India&z=15&output=embed",
             "streetView": "https://www.google.com/maps/embed?pb=!4v1725285947975!6m8!1m7!1sCAoSLEFGMVFpcE1EWGlhWGE2X2FzQmN2dGItTzdiaUROX014VGxUS0hjbzFKS0Vx!2m2!1d12.6163897!2d80.1992719!3f49.88279669194132!4f18.430541452150877!5f0.7820865974627469"

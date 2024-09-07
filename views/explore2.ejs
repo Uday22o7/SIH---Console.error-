@@ -24,7 +24,7 @@
     <section id="map">
         <div class="pinmap">
             <iframe
-                src="<%= heritageSite[0].mainmap %>"
+                src="<%= result[0].mainmap %>"
                 width="640" height="480" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
@@ -34,7 +34,7 @@
     <section id="heritage-sites">
         <h2 class="explore-text"> Heritage Sites in India</h2>
         <div class="site-container">
-            <% for (let sites of heritageSite) { %>
+            <% for (let sites of result) { %>
                 <a href="/explore/site/<%= sites._id %>" class="site-card">
                     <img src="<%= sites.imageUrl[0] %>" alt="">
                     <div class="card-content">

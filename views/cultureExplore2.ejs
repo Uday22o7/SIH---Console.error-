@@ -26,16 +26,13 @@
     <section id="heritage-sites">
         <h2 class="explore-text">Cultures of India</h2>
         <div class="site-container">
-            <% for (let sites of heritageSite) { %>
-                <a href="/explore/site/<%= sites._id %>" class="site-card">
+            <% for (let sites of result) { %>
+                <a href="/explore/culture/<%= sites._id %>" class="site-card">
                     <img src="<%= sites.imageUrl[0] %>" alt="">
                     <div class="card-content">
                         <h3>
                             <%= sites.name %>
                         </h3>
-                        <p>
-                            <%= sites.history.earlyHistory %>
-                        </p>
                     </div>
                 </a>
                 <% } %>

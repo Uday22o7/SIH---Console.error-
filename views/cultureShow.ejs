@@ -55,7 +55,7 @@
         /* Hero Section */
         .hero {
             height: 100vh;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<%= heritageSite[0].imageUrl[0] %>');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<%= result[0].imageUrl[0] %>');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -377,23 +377,23 @@
         <!-- First Half -->
         <div class="about-content">
             <div class="about-image">
-                <img src="<%= heritageSite[0].imageUrl[1] %>" alt="Taj Mahal">
+                <img src="<%= result[0].imageUrl[1] %>" alt="Taj Mahal">
             </div>
             <div class="about-text">
                 <h3>
-                    <%= heritageSite[0].name %>
+                    <%= result[0].name %>
                 </h3>
                 <h4>Overview</h4>
                 <p>
-                    <%= heritageSite[0].overview %>
+                    <%= result[0].overview %>
                 </p>
                 <h4>History</h4>
                 <ul>
                     <li><strong>Origins:</strong>
-                        <%= heritageSite[0].history.origin %>
+                        <%= result[0].history.origin %>
                     </li>
                     <li><strong>Significance: </strong>
-                        <%= heritageSite[0].history.significance %>
+                        <%= result[0].history.significance %>
                     </li>
                 </ul>
             </div>
@@ -405,31 +405,31 @@
                 <h4>Celebration Type</h4>
                 <ul>
                     <li><strong>Lighting of Diyas: </strong>
-                        <%= heritageSite[0].celebrationType[0] %>
+                        <%= result[0].celebrationType[0] %>
                     </li>
                     <li><strong>Fireworks and Festivities:</strong>
-                        <%=heritageSite[0].celebrationType[1] %>
+                        <%=result[0].celebrationType[1] %>
                     </li>
                     <li><strong>Pujas and Offerings:</strong>
-                        <%=heritageSite[0].celebrationType[2] %>
+                        <%=result[0].celebrationType[2] %>
                     </li>
                 </ul>
 
                 <h4>Popular places</h4>
                 <ul>
                     <li><strong>
-                            <%=heritageSite[0].popularPlace[0] %>
+                            <%=result[0].popularPlace[0] %>
                         </strong></li>
                     <li><strong>
-                            <%=heritageSite[0].popularPlace[1] %>
+                            <%=result[0].popularPlace[1] %>
                         </strong></li>
                     <li><strong>
-                            <%=heritageSite[0].popularPlace[2] %>
+                            <%=result[0].popularPlace[2] %>
                         </strong></li>
                 </ul>
             </div>
             <div class="about-image">
-                <img src="<%= heritageSite[0].imageUrl[2] %>" alt="Taj Mahal">
+                <img src="<%= result[0].imageUrl[2] %>" alt="Taj Mahal">
             </div>
         </div>
     </section>
@@ -437,7 +437,7 @@
     <section id="cultures">
         <h2 class="explore-text">Explore Cultures</h2>
         <div class="culture-container">
-            <a href="/explore/site/66d839d69e12dd4b14766096" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766096" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/rakshabhandhan1_qe6ql1.jpg" alt="Bharatanatyam">
                 <div class="card-content">
                     <h3>Raksha Bandhan</h3>
@@ -445,7 +445,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d839d69e12dd4b14766092" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766092" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/durga3_azzj3j.jpg" alt="Rangoli">
                 <div class="card-content">
                     <h3>Navratri</h3>
@@ -453,7 +453,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d839d69e12dd4b14766090" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766090" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440135/diwali_1_rpitoc.jpg" alt="Kathakali">
                 <div class="card-content">
                     <h3>Diwali</h3>
@@ -461,7 +461,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d839d69e12dd4b14766098" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766098" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/eid1_gfhgmo.jpg" alt="Bihu Dance">
                 <div class="card-content">
                     <h3>Eid al-Fitr</h3>
@@ -474,7 +474,7 @@
     <section id="heritage-sites">
         <h2 class="explore-text">Explore Heritage Sites</h2>
         <div class="site-container">
-            <a href="/explore/site/66d61baad574c98a7c4ac11f" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a592" class="site-card">
                 <img src="/img/taj1.jpg" alt="Taj Mahal">
                 <div class="card-content">
                     <h3>Taj Mahal</h3>
@@ -482,7 +482,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d61baad574c98a7c4ac121" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a594" class="site-card">
                 <img src="/img/qutub.jpg" alt="Qutub Minar">
                 <div class="card-content">
                     <h3>Qutub Minar</h3>
@@ -490,7 +490,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d61baad574c98a7c4ac123" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a596" class="site-card">
                 <img src="/img/sun.jpg" alt="Sun Temple">
                 <div class="card-content">
                     <h3>Sun Temple, Konark</h3>
@@ -498,7 +498,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d61baad574c98a7c4ac126" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a599" class="site-card">
                 <img src="/img/humpi.jpg" alt="Hampi">
                 <div class="card-content">
                     <h3>Hampi</h3>

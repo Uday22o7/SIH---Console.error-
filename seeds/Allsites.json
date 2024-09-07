@@ -36,7 +36,9 @@
             "saarcBimstecCitizens": 300,
             "childrenBelow15": "Free"
         },
-        "category": "Caves",
+        "category": [
+            "Caves"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
@@ -87,7 +89,9 @@
             "saarcBimstecCitizens": 300,
             "childrenBelow15": "Free"
         },
-        "category": "Caves",
+        "category": [
+            "Caves"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
@@ -138,7 +142,9 @@
             "saarcBimstecCitizens": 300,
             "childrenBelow15": "Free"
         },
-        "category": "Caves",
+        "category": [
+            "Caves"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Chhatrapati Shivaji Maharaj International Airport",
@@ -188,7 +194,7 @@
             "saarcBimstecCitizens": 0,
             "childrenBelow15": "Free"
         },
-        "category": "Railway Stations",
+        "category": [],
         "howToReach": {
             "nearestAirport": {
                 "name": "Chhatrapati Shivaji Maharaj International Airport",
@@ -238,7 +244,9 @@
             "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
-        "category": "Forts",
+        "category": [
+            "Forts"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Pune International Airport",
@@ -288,7 +296,9 @@
             "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
-        "category": "Forts",
+        "category": [
+            "Forts"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Mumbai International Airport",
@@ -339,7 +349,7 @@
             "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
-        "category": "Mausoleums",
+        "category": [],
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",
@@ -389,7 +399,9 @@
             "saarcBimstecCitizens": 20,
             "childrenBelow15": "Free"
         },
-        "category": "Forts",
+        "category": [
+            "Forts"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Goa International Airport",
@@ -440,7 +452,9 @@
             "saarcBimstecCitizens": 20,
             "childrenBelow15": "Free"
         },
-        "category": "Caves",
+        "category": [
+            "Caves"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Chhatrapati Shivaji Maharaj International Airport",
@@ -490,7 +504,9 @@
             "saarcBimstecCitizens": 25,
             "childrenBelow15": "Free"
         },
-        "category": "Forts",
+        "category": [
+            "Forts"
+        ],
         "howToReach": {
             "nearestAirport": {
                 "name": "Aurangabad Airport",

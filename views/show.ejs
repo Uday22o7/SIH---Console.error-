@@ -9,7 +9,7 @@
     <style>
         .hero {
             height: 100vh;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<%= heritageSite[0].imageUrl[0] %>');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<%= result[0].imageUrl[0] %>');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -47,27 +47,27 @@
         <!-- First Half -->
         <div class="about-content">
             <div class="about-image">
-                <img src="<%= heritageSite[0].imageUrl[1] %>" alt="Taj Mahal">
+                <img src="<%= result[0].imageUrl[1] %>" alt="Taj Mahal">
             </div>
             <div class="about-text">
                 <h3>
-                    <%= heritageSite[0].name %>
+                    <%= result[0].name %>
                 </h3>
                 <h4>Overview</h4>
                 <p>
-                    <%= heritageSite[0].overview %>
+                    <%= result[0].overview %>
                 </p>
 
                 <h4>History and Significance</h4>
                 <ul>
                     <li><strong>Earlier History:</strong>
-                        <%= heritageSite[0].history.earlyHistory %>
+                        <%= result[0].history.earlyHistory %>
                     </li>
                     <li><strong>Architectural Significance:</strong>
-                        <%= heritageSite[0].history.architecturalSignificance %>
+                        <%= result[0].history.architecturalSignificance %>
                     </li>
                     <li><strong>UNESCO Recognition:</strong>
-                        <%= heritageSite[0].history.unescoRecognition %>
+                        <%= result[0].history.unescoRecognition %>
                     </li>
                 </ul>
             </div>
@@ -79,35 +79,35 @@
                 <h4>Visiting Hours</h4>
                 <ul>
                     <li><strong>Open:</strong>
-                        <%= heritageSite[0].visitingHours.openDays[0] %>
+                        <%= result[0].visitingHours.openDays[0] %>
                     </li>
-                    <li><strong>Timings:</strong> from <%= heritageSite[0].visitingHours.timings.from %>.00 to <%=
-                                heritageSite[0].visitingHours.timings.to %>.00 </li>
+                    <li><strong>Timings:</strong> from <%= result[0].visitingHours.timings.from %>.00 to <%=
+                                result[0].visitingHours.timings.to %>.00 </li>
                 </ul>
 
                 <h4>Ticket Information</h4>
                 <ul>
                     <li><strong>Entry Fee:</strong></li>
                     <ul>
-                        <li>Indian Citizens: ₹<%= heritageSite[0].ticketInformation.indianCitizens %>
+                        <li>Indian Citizens: ₹<%= result[0].ticketInformation.indianCitizens %>
                         </li>
-                        <li>Foreign Tourists: ₹<%= heritageSite[0].ticketInformation.foreignTourists %>
+                        <li>Foreign Tourists: ₹<%= result[0].ticketInformation.foreignTourists %>
                         </li>
-                        <li>SAARC/BIMSTEC Citizens: ₹<%= heritageSite[0].ticketInformation.saarcBimstecCitizens %>
+                        <li>SAARC/BIMSTEC Citizens: ₹<%= result[0].ticketInformation.saarcBimstecCitizens %>
                         </li>
-                        <li>Children Below 15 Years: <%= heritageSite[0].ticketInformation.childrenBelow15 %>
+                        <li>Children Below 15 Years: <%= result[0].ticketInformation.childrenBelow15 %>
                         </li>
                     </ul>
                 </ul>
 
                 <h4>How to Reach</h4>
-                <p>The <%= heritageSite[0].name %> is located in <%= heritageSite[0].location.city %>, approximately <%=
-                                heritageSite[0].howToReach.nearestAirport.distanceKm %> km from <%=
-                                    heritageSite[0].howToReach.nearestAirport.name %> .It is easily accessible by road,
+                <p>The <%= result[0].name %> is located in <%= result[0].location.city %>, approximately <%=
+                                result[0].howToReach.nearestAirport.distanceKm %> km from <%=
+                                    result[0].howToReach.nearestAirport.name %> .It is easily accessible by road,
                                     train and air.</p>
             </div>
             <div class="about-image">
-                <img src="<%= heritageSite[0].imageUrl[2] %>" alt="Taj Mahal">
+                <img src="<%= result[0].imageUrl[2] %>" alt="Taj Mahal">
             </div>
         </div>
     </section>
@@ -116,14 +116,14 @@
             <div class="pinmap">
                 <h2 class="map-title">Map</h2>
                 <iframe
-                    src="<%=heritageSite[0].iframe.map%>"
+                    src="<%=result[0].iframe.map%>"
                     width="100%" height="100%" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
             <div class="view">
                 <h2 class="view-title">Street View</h2>
                 <iframe
-                    src="<%=heritageSite[0].iframe.streetView%>"
+                    src="<%=result[0].iframe.streetView%>"
                     width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -134,7 +134,7 @@
     <section id="heritage-sites">
         <h2 class="explore-text">Explore Heritage Sites</h2>
         <div class="site-container">
-            <a href="/explore/site/66d61baad574c98a7c4ac11f" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a592" class="site-card">
                 <img src="/img/taj1.jpg" alt="Taj Mahal">
                 <div class="card-content">
                     <h3>Taj Mahal</h3>
@@ -142,7 +142,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d61baad574c98a7c4ac121" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a594" class="site-card">
                 <img src="/img/qutub.jpg" alt="Qutub Minar">
                 <div class="card-content">
                     <h3>Qutub Minar</h3>
@@ -150,7 +150,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d61baad574c98a7c4ac123" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a596" class="site-card">
                 <img src="/img/sun.jpg" alt="Sun Temple">
                 <div class="card-content">
                     <h3>Sun Temple, Konark</h3>
@@ -158,7 +158,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d61baad574c98a7c4ac126" class="site-card">
+            <a href="/explore/site/66dcb11d3099edd7c9e1a599" class="site-card">
                 <img src="/img/humpi.jpg" alt="Hampi">
                 <div class="card-content">
                     <h3>Hampi</h3>
@@ -171,7 +171,7 @@
     <section id="cultures">
         <h2 class="explore-text">Explore Cultures</h2>
         <div class="culture-container">
-            <a href="/explore/site/66d839d69e12dd4b14766096" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766096" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440140/rakshabhandhan1_qe6ql1.jpg" alt="Bharatanatyam">
                 <div class="card-content">
                     <h3>Raksha Bandhan</h3>
@@ -179,7 +179,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d839d69e12dd4b14766092" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766092" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/durga3_azzj3j.jpg" alt="Rangoli">
                 <div class="card-content">
                     <h3>Navratri</h3>
@@ -187,7 +187,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d839d69e12dd4b14766090" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766090" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440135/diwali_1_rpitoc.jpg" alt="Kathakali">
                 <div class="card-content">
                     <h3>Diwali</h3>
@@ -195,7 +195,7 @@
                 </div>
             </a>
 
-            <a href="/explore/site/66d839d69e12dd4b14766098" class="culture-card">
+            <a href="/explore/culture/66d839d69e12dd4b14766098" class="culture-card">
                 <img src="https://res.cloudinary.com/dv2wvvbbz/image/upload/v1725440136/eid1_gfhgmo.jpg" alt="Bihu Dance">
                 <div class="card-content">
                     <h3>Eid al-Fitr</h3>

@@ -2,7 +2,6 @@ const express = require("express");
 const path = require('path')
 const ejsMate = require("ejs-mate")
 const mongoose = require("mongoose");
-const topIndia = require("./model/heritageSite")
 const allSites = require("./model/all_heritageSite")
 const Culture = require("./model/culture")
 const bodyParser = require("body-parser")
@@ -33,18 +32,14 @@ app.get("/", async (req, res) => {
 
 app.post("/", async (req, res) => {
     const { state } = req.body;
-    try {
-        if (state === "india") {
-            const heritageSite = await topIndia.find({}).limit(6);
+        if (state === "India") {
+            const heritageSite = await allSites.find({ 'location.country': state }).limit(6);
             res.json(heritageSite);
         } else {
             const heritageSite = await allSites.find({ 'location.state': state }).limit(6);
             res.json(heritageSite);
         }
-    } catch (err) {
-        console.error("Error fetching heritage sites:", err);
-        res.status(500).send("Server error");
-    }
+    
 });
 
 
@@ -54,33 +49,37 @@ app.get("/explore", (req, res) => {
     res.render("./explore.ejs")
 });
 
+// Explore/Site
 app.get("/explore/site", async (req, res) => {
     const { title } = req.query;
-    if (title === "unescoRecognition") {
-        const heritageSite = await topIndia.find({}).limit(8);
-        return res.render("./explore2.ejs", { heritageSite });
-    } else if (title === "Cultures") {
-        const heritageSite = await Culture.find({})
-        return res.render("./exploreculture.ejs", { heritageSite });
-    } else {
-        const heritageSite = await allSites.find({ category: title });
-        return res.render("./explore2.ejs", { heritageSite });
-    }
+    const result = await allSites.find({
+        category: { $in: title }
+    });
+    return res.render("./explore2.ejs", { result });
+
 });
 
-// Show page
+// Sites Show page
 app.get("/explore/site/:id", async (req, res) => {
     const { id } = req.params
-    const heritageSite = await topIndia.find({ _id: id });
-    if (!heritageSite.length) {
-        const heritageSite = await allSites.find({ _id: id });
-        if (!heritageSite.length) {
-            const heritageSite = await Culture.find({ _id: id });
-            return res.render("./culture.ejs", { heritageSite })
-        }
-        return res.render("./show.ejs", { heritageSite })
-    }
-    res.render("./show.ejs", { heritageSite })
+    const result = await allSites.find({ _id: id });
+    console.log(result)
+    res.render("./show.ejs", { result })
+});
+
+// Explore/Culture
+app.get("/explore/culture", async (req, res) => {
+    // const { title } = req.query; for future when we create a culture and tradidtion database for now only culture
+    const result = await Culture.find({});
+    return res.render("./cultureExplore2.ejs", { result });
+
+});
+
+// Culture Show page
+app.get("/explore/culture/:id", async (req, res) => {
+    const { id } = req.params
+    const result = await Culture.find({ _id: id });
+    res.render("./cultureShow.ejs", { result })
 });
 
 app.listen(port, (req, res) => {
